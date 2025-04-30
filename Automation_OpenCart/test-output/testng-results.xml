@@ -1,23 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="116" passed="114" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-28T23:19:31 IST" name="Test Suite" finished-at="2024-11-28T23:20:08 IST" duration-ms="36788">
+  <suite started-at="2025-04-30T22:57:17 IST" name="Test Suite" finished-at="2025-04-30T23:00:19 IST" duration-ms="181953">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistractionTest.TC001_AccountRegistrationTest()[pri:0, instance:testcases.TC001_AccountRegistractionTest@62ef27a8]" name="TC001_AccountRegistrationTest" class="testcases.TC001_AccountRegistractionTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testcases.TC002_LoginTest@16fdec90]" name="verify_Login" class="testcases.TC002_LoginTest"/>
+        <method signature="HomePage_TestCases.TC001_VerifyHomePageLoadSuccessfully()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC001_VerifyHomePageLoadSuccessfully" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC002_VerifyHomePageTitle()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC002_VerifyHomePageTitle" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC003_VerifyISLogoDisplayed()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC003_VerifyISLogoDisplayed" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC004_verifyCurencyareDisplayedinsideCurrencyLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC004_verifyCurencyareDisplayedinsideCurrencyLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC005_VerifyEuroCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC005_VerifyEuroCurrencyButtonTest" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC006_VerifyPoundCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC006_VerifyPoundCurrencyButtonTest" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC007_VerifyDollarCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC007_VerifyDollarCurrencyButtonTest" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC008_VerifyContactlnkRedirectingtoContactPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC008_VerifyContactlnkRedirectingtoContactPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC009_verifyLinksareDisplayedinsideMyAccountLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC009_verifyLinksareDisplayedinsideMyAccountLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC018_VerifysearchInputBoxIsEnabled()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC018_VerifysearchInputBoxIsEnabled" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC019_VerifysearchInputBoxWithRegisteredtextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC019_VerifysearchInputBoxWithRegisteredtextValue" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC020_VerifysearchInputBoxWithUnRegisteredtextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC020_VerifysearchInputBoxWithUnRegisteredtextValue" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC021_VerifysearchInputBoxWithNotextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC021_VerifysearchInputBoxWithNotextValue" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC028_VerifyLogoutLinkRedirectingtoLogoutPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC028_VerifyLogoutLinkRedirectingtoLogoutPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC029_hoveringMouseOnDesktopsLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC029_hoveringMouseOnDesktopsLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC030_PC0LinkisredirectingtoPCPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC030_PC0LinkisredirectingtoPCPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC031_Mac1LinkisredirectingtoMacPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC031_Mac1LinkisredirectingtoMacPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC033_hoveringMouseOnLaptopsandNotebooksLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC033_hoveringMouseOnLaptopsandNotebooksLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC034_Macs0LinkisredirectingtoMacsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC034_Macs0LinkisredirectingtoMacsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC035_windows0LinkisredirectingtoWindowsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC035_windows0LinkisredirectingtoWindowsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC037_hoveringMouseOncomponentsLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC037_hoveringMouseOncomponentsLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC039_monitors2lnkkisredirectingtomonitorsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC039_monitors2lnkkisredirectingtomonitorsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC040_printers0lnkisredirectingtoPrinterskPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC040_printers0lnkisredirectingtoPrinterskPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC041_scanners0lnkisredirectingtoScannersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC041_scanners0lnkisredirectingtoScannersPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC042_webcameras0lnkisredirectingtoWebCamerasPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC042_webcameras0lnkisredirectingtoWebCamerasPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC044_ClickontabletslnkRedirectingtoTabletsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC044_ClickontabletslnkRedirectingtoTabletsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC045_ClickonsofwarelnkRedirectingtoSoftwarePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC045_ClickonsofwarelnkRedirectingtoSoftwarePage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC047_ClickoncameraslnkRedirectingtoCamerasPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC047_ClickoncameraslnkRedirectingtoCamerasPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC048_hoveringMouseOnMp3PlayersLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC048_hoveringMouseOnMp3PlayersLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC049_ClickonTest11_0_lnkRedirectingtotest11Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC049_ClickonTest11_0_lnkRedirectingtotest11Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC050_ClickonTest12_0_lnkRedirectingtotest12Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC050_ClickonTest12_0_lnkRedirectingtotest12Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC051_ClickonTest15_0_lnkRedirectingtotest15Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC051_ClickonTest15_0_lnkRedirectingtotest15Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC052_ClickonTest16_0_lnkRedirectingtotest16Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC052_ClickonTest16_0_lnkRedirectingtotest16Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC053_ClickonTest17_0_lnkRedirectingtotest17Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC053_ClickonTest17_0_lnkRedirectingtotest17Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC054_ClickonTest18_0_lnkRedirectingtotest18Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC054_ClickonTest18_0_lnkRedirectingtotest18Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC055_ClickonTest19_0_lnkRedirectingtotest19Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC055_ClickonTest19_0_lnkRedirectingtotest19Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC056_ClickonTest20_0_lnkRedirectingtotest20Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC056_ClickonTest20_0_lnkRedirectingtotest20Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC057_ClickonTest21_0_lnkRedirectingtotest21Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC057_ClickonTest21_0_lnkRedirectingtotest21Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC058_ClickonTest22_0_lnkRedirectingtotest22Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC058_ClickonTest22_0_lnkRedirectingtotest22Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC059_ClickonTest23_0_lnkRedirectingtotest23Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC059_ClickonTest23_0_lnkRedirectingtotest23Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC060_ClickonTest24_0_lnkRedirectingtotest24Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC060_ClickonTest24_0_lnkRedirectingtotest24Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC061_ClickonTest4_0_lnkRedirectingtotest4Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC061_ClickonTest4_0_lnkRedirectingtotest4Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC062_ClickonTest5_0_lnkRedirectingtotest5Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC062_ClickonTest5_0_lnkRedirectingtotest5Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC063_ClickonTest6_0_lnkRedirectingtotest6Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC063_ClickonTest6_0_lnkRedirectingtotest6Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC064_ClickonTest7_0_lnkRedirectingtotest7Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC064_ClickonTest7_0_lnkRedirectingtotest7Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC065_ClickonTest8_0_lnkRedirectingtotest8Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC065_ClickonTest8_0_lnkRedirectingtotest8Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC066_ClickonTest9_0_lnkRedirectingtotest9Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC066_ClickonTest9_0_lnkRedirectingtotest9Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC068_verifyFourProductsInFeaturedHeadline()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC068_verifyFourProductsInFeaturedHeadline" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC069_VerifyMacBooklinkisredirectingtoMacBookpage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC069_VerifyMacBooklinkisredirectingtoMacBookpage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC070_VerifyMacBookDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC070_VerifyMacBookDescription" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC071_VerifyMacBookTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC071_VerifyMacBookTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC072_VerifyMacBookExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC072_VerifyMacBookExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC074_VerifyAddtoCartButtonofMacBookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC074_VerifyAddtoCartButtonofMacBookProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC077_VerifyCompareThisProductsButtonofMacBookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC077_VerifyCompareThisProductsButtonofMacBookProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC078_VerifyiphoneLnkisRedirectToiphonePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC078_VerifyiphoneLnkisRedirectToiphonePage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC079_VerifyiPhoneDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC079_VerifyiPhoneDescription" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC080_VerifyiPhoneExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC080_VerifyiPhoneExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC081_VerifyiPhoneTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC081_VerifyiPhoneTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC083_VerifyAddtoCartButtonofiPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC083_VerifyAddtoCartButtonofiPhoneProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC086_VerifyCompareThisProductsButtonofiPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC086_VerifyCompareThisProductsButtonofiPhoneProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC088_VerifyAppleCinema30Description()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC088_VerifyAppleCinema30Description" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC089_VerifyAppleCinema30ExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC089_VerifyAppleCinema30ExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC090_VerifyAppleCinema30NewTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC090_VerifyAppleCinema30NewTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC091_VerifyAppleCinema30OldTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC091_VerifyAppleCinema30OldTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC096_VerifyCompareThisProductsButtonofAppleCinema30Product()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC096_VerifyCompareThisProductsButtonofAppleCinema30Product" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC098_VerifyCanonEOS5DDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC098_VerifyCanonEOS5DDescription" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC099_VerifyCanonEOS5DExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC099_VerifyCanonEOS5DExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC100_VerifyCanonEOS5DNewTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC100_VerifyCanonEOS5DNewTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC101_VerifyCanonEOS5DOldTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC101_VerifyCanonEOS5DOldTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage" class="testcases.HomePage_TestCases"/>
+        <method signature="TC001_AccountRegistractionTest.TC001_AccountRegistrationTest()[pri:0, instance:testcases.TC001_AccountRegistractionTest@3212a8d7]" name="TC001_AccountRegistrationTest" class="testcases.TC001_AccountRegistractionTest"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testcases.TC002_LoginTest@7a1a3478]" name="verify_Login" class="testcases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testcases.TC002_LoginTest@16fdec90]" name="verify_Login" class="testcases.TC002_LoginTest"/>
+        <method signature="HomePage_TestCases.TC001_VerifyHomePageLoadSuccessfully()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC001_VerifyHomePageLoadSuccessfully" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC002_VerifyHomePageTitle()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC002_VerifyHomePageTitle" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC003_VerifyISLogoDisplayed()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC003_VerifyISLogoDisplayed" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC004_verifyCurencyareDisplayedinsideCurrencyLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC004_verifyCurencyareDisplayedinsideCurrencyLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC005_VerifyEuroCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC005_VerifyEuroCurrencyButtonTest" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC006_VerifyPoundCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC006_VerifyPoundCurrencyButtonTest" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC007_VerifyDollarCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC007_VerifyDollarCurrencyButtonTest" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC008_VerifyContactlnkRedirectingtoContactPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC008_VerifyContactlnkRedirectingtoContactPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC009_verifyLinksareDisplayedinsideMyAccountLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC009_verifyLinksareDisplayedinsideMyAccountLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC018_VerifysearchInputBoxIsEnabled()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC018_VerifysearchInputBoxIsEnabled" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC019_VerifysearchInputBoxWithRegisteredtextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC019_VerifysearchInputBoxWithRegisteredtextValue" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC020_VerifysearchInputBoxWithUnRegisteredtextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC020_VerifysearchInputBoxWithUnRegisteredtextValue" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC021_VerifysearchInputBoxWithNotextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC021_VerifysearchInputBoxWithNotextValue" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC029_hoveringMouseOnDesktopsLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC029_hoveringMouseOnDesktopsLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC030_PC0LinkisredirectingtoPCPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC030_PC0LinkisredirectingtoPCPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC031_Mac1LinkisredirectingtoMacPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC031_Mac1LinkisredirectingtoMacPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC033_hoveringMouseOnLaptopsandNotebooksLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC033_hoveringMouseOnLaptopsandNotebooksLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC034_Macs0LinkisredirectingtoMacsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC034_Macs0LinkisredirectingtoMacsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC035_windows0LinkisredirectingtoWindowsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC035_windows0LinkisredirectingtoWindowsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC037_hoveringMouseOncomponentsLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC037_hoveringMouseOncomponentsLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC039_monitors2lnkkisredirectingtomonitorsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC039_monitors2lnkkisredirectingtomonitorsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC040_printers0lnkisredirectingtoPrinterskPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC040_printers0lnkisredirectingtoPrinterskPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC041_scanners0lnkisredirectingtoScannersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC041_scanners0lnkisredirectingtoScannersPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC042_webcameras0lnkisredirectingtoWebCamerasPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC042_webcameras0lnkisredirectingtoWebCamerasPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC044_ClickontabletslnkRedirectingtoTabletsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC044_ClickontabletslnkRedirectingtoTabletsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC045_ClickonsofwarelnkRedirectingtoSoftwarePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC045_ClickonsofwarelnkRedirectingtoSoftwarePage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC047_ClickoncameraslnkRedirectingtoCamerasPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC047_ClickoncameraslnkRedirectingtoCamerasPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC048_hoveringMouseOnMp3PlayersLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC048_hoveringMouseOnMp3PlayersLink" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC049_ClickonTest11_0_lnkRedirectingtotest11Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC049_ClickonTest11_0_lnkRedirectingtotest11Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC050_ClickonTest12_0_lnkRedirectingtotest12Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC050_ClickonTest12_0_lnkRedirectingtotest12Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC051_ClickonTest15_0_lnkRedirectingtotest15Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC051_ClickonTest15_0_lnkRedirectingtotest15Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC052_ClickonTest16_0_lnkRedirectingtotest16Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC052_ClickonTest16_0_lnkRedirectingtotest16Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC053_ClickonTest17_0_lnkRedirectingtotest17Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC053_ClickonTest17_0_lnkRedirectingtotest17Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC054_ClickonTest18_0_lnkRedirectingtotest18Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC054_ClickonTest18_0_lnkRedirectingtotest18Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC055_ClickonTest19_0_lnkRedirectingtotest19Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC055_ClickonTest19_0_lnkRedirectingtotest19Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC056_ClickonTest20_0_lnkRedirectingtotest20Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC056_ClickonTest20_0_lnkRedirectingtotest20Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC057_ClickonTest21_0_lnkRedirectingtotest21Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC057_ClickonTest21_0_lnkRedirectingtotest21Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC058_ClickonTest22_0_lnkRedirectingtotest22Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC058_ClickonTest22_0_lnkRedirectingtotest22Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC059_ClickonTest23_0_lnkRedirectingtotest23Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC059_ClickonTest23_0_lnkRedirectingtotest23Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC060_ClickonTest24_0_lnkRedirectingtotest24Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC060_ClickonTest24_0_lnkRedirectingtotest24Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC061_ClickonTest4_0_lnkRedirectingtotest4Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC061_ClickonTest4_0_lnkRedirectingtotest4Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC062_ClickonTest5_0_lnkRedirectingtotest5Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC062_ClickonTest5_0_lnkRedirectingtotest5Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC063_ClickonTest6_0_lnkRedirectingtotest6Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC063_ClickonTest6_0_lnkRedirectingtotest6Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC064_ClickonTest7_0_lnkRedirectingtotest7Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC064_ClickonTest7_0_lnkRedirectingtotest7Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC065_ClickonTest8_0_lnkRedirectingtotest8Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC065_ClickonTest8_0_lnkRedirectingtotest8Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC066_ClickonTest9_0_lnkRedirectingtotest9Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC066_ClickonTest9_0_lnkRedirectingtotest9Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC068_verifyFourProductsInFeaturedHeadline()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC068_verifyFourProductsInFeaturedHeadline" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC069_VerifyMacBooklinkisredirectingtoMacBookpage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC069_VerifyMacBooklinkisredirectingtoMacBookpage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC070_VerifyMacBookDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC070_VerifyMacBookDescription" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC071_VerifyMacBookTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC071_VerifyMacBookTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC072_VerifyMacBookExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC072_VerifyMacBookExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC074_VerifyAddtoCartButtonofMacBookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC074_VerifyAddtoCartButtonofMacBookProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC077_VerifyCompareThisProductsButtonofMacBookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC077_VerifyCompareThisProductsButtonofMacBookProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC078_VerifyiphoneLnkisRedirectToiphonePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC078_VerifyiphoneLnkisRedirectToiphonePage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC079_VerifyiPhoneDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC079_VerifyiPhoneDescription" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC080_VerifyiPhoneExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC080_VerifyiPhoneExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC081_VerifyiPhoneTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC081_VerifyiPhoneTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC083_VerifyAddtoCartButtonofiPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC083_VerifyAddtoCartButtonofiPhoneProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC086_VerifyCompareThisProductsButtonofiPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC086_VerifyCompareThisProductsButtonofiPhoneProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC088_VerifyAppleCinema30Description()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC088_VerifyAppleCinema30Description" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC089_VerifyAppleCinema30ExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC089_VerifyAppleCinema30ExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC090_VerifyAppleCinema30NewTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC090_VerifyAppleCinema30NewTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC091_VerifyAppleCinema30OldTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC091_VerifyAppleCinema30OldTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC096_VerifyCompareThisProductsButtonofAppleCinema30Product()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC096_VerifyCompareThisProductsButtonofAppleCinema30Product" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC098_VerifyCanonEOS5DDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC098_VerifyCanonEOS5DDescription" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC099_VerifyCanonEOS5DExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC099_VerifyCanonEOS5DExTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC100_VerifyCanonEOS5DNewTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC100_VerifyCanonEOS5DNewTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC101_VerifyCanonEOS5DOldTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC101_VerifyCanonEOS5DOldTax" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage" class="testcases.HomePage_TestCases"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testcases.TC002_LoginTest@7a1a3478]" name="verify_Login" class="testcases.TC002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistractionTest.TC001_AccountRegistrationTest()[pri:0, instance:testcases.TC001_AccountRegistractionTest@62ef27a8]" name="TC001_AccountRegistrationTest" class="testcases.TC001_AccountRegistractionTest"/>
+        <method signature="HomePage_TestCases.TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC028_VerifyLogoutLinkRedirectingtoLogoutPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC028_VerifyLogoutLinkRedirectingtoLogoutPage" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="HomePage_TestCases.TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" name="TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin" class="testcases.HomePage_TestCases"/>
+        <method signature="TC001_AccountRegistractionTest.TC001_AccountRegistrationTest()[pri:0, instance:testcases.TC001_AccountRegistractionTest@3212a8d7]" name="TC001_AccountRegistrationTest" class="testcases.TC001_AccountRegistractionTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-11-28T23:19:31 IST" name="ChromeTest" finished-at="2024-11-28T23:20:08 IST" duration-ms="36788">
+    <test started-at="2025-04-30T22:57:17 IST" name="ChromeTest" finished-at="2025-04-30T23:00:19 IST" duration-ms="181953">
       <class name="testcases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_LoginTest@16fdec90]" started-at="2024-11-28T23:19:54 IST" name="setup" finished-at="2024-11-28T23:20:00 IST" duration-ms="5966" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_LoginTest@7a1a3478]" started-at="2025-04-30T23:00:09 IST" name="setup" finished-at="2025-04-30T23:00:14 IST" duration-ms="5076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,21 +261,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.TC002_LoginTest@16fdec90]" started-at="2024-11-28T23:20:00 IST" name="launchUrl" finished-at="2024-11-28T23:20:04 IST" duration-ms="3963" status="PASS">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.TC002_LoginTest@7a1a3478]" started-at="2025-04-30T23:00:14 IST" name="launchUrl" finished-at="2025-04-30T23:00:16 IST" duration-ms="1559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method signature="verify_Login()[pri:0, instance:testcases.TC002_LoginTest@16fdec90]" started-at="2024-11-28T23:20:04 IST" name="verify_Login" finished-at="2024-11-28T23:20:07 IST" duration-ms="2721" status="PASS">
+        <test-method signature="verify_Login()[pri:0, instance:testcases.TC002_LoginTest@7a1a3478]" started-at="2025-04-30T23:00:16 IST" name="verify_Login" finished-at="2025-04-30T23:00:18 IST" duration-ms="2393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC002_LoginTest@16fdec90]" started-at="2024-11-28T23:20:07 IST" name="tearDown" finished-at="2024-11-28T23:20:08 IST" duration-ms="1217" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC002_LoginTest@7a1a3478]" started-at="2025-04-30T23:00:18 IST" name="tearDown" finished-at="2025-04-30T23:00:19 IST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC002_LoginTest -->
       <class name="testcases.TC001_AccountRegistractionTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_AccountRegistractionTest@62ef27a8]" started-at="2024-11-28T23:19:32 IST" name="setup" finished-at="2024-11-28T23:19:42 IST" duration-ms="9562" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_AccountRegistractionTest@3212a8d7]" started-at="2025-04-30T22:59:53 IST" name="setup" finished-at="2025-04-30T23:00:00 IST" duration-ms="6261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,19 +291,1039 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.TC001_AccountRegistractionTest@62ef27a8]" started-at="2024-11-28T23:19:42 IST" name="launchUrl" finished-at="2024-11-28T23:19:46 IST" duration-ms="4528" status="PASS">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.TC001_AccountRegistractionTest@3212a8d7]" started-at="2025-04-30T23:00:00 IST" name="launchUrl" finished-at="2025-04-30T23:00:04 IST" duration-ms="4169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method signature="TC001_AccountRegistrationTest()[pri:0, instance:testcases.TC001_AccountRegistractionTest@62ef27a8]" started-at="2024-11-28T23:19:46 IST" name="TC001_AccountRegistrationTest" finished-at="2024-11-28T23:19:53 IST" duration-ms="7302" status="PASS">
+        <test-method signature="TC001_AccountRegistrationTest()[pri:0, instance:testcases.TC001_AccountRegistractionTest@3212a8d7]" started-at="2025-04-30T23:00:04 IST" name="TC001_AccountRegistrationTest" finished-at="2025-04-30T23:00:09 IST" duration-ms="4797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_AccountRegistrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC001_AccountRegistractionTest@62ef27a8]" started-at="2024-11-28T23:19:54 IST" name="tearDown" finished-at="2024-11-28T23:19:54 IST" duration-ms="688" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC001_AccountRegistractionTest@3212a8d7]" started-at="2025-04-30T23:00:09 IST" name="tearDown" finished-at="2025-04-30T23:00:09 IST" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC001_AccountRegistractionTest -->
+      <class name="testcases.HomePage_TestCases">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:18 IST" name="setup" finished-at="2025-04-30T22:57:26 IST" duration-ms="7792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:26 IST" name="launchUrl" finished-at="2025-04-30T22:57:29 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC001_VerifyHomePageLoadSuccessfully()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:29 IST" name="TC001_VerifyHomePageLoadSuccessfully" finished-at="2025-04-30T22:57:29 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_VerifyHomePageLoadSuccessfully -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:30 IST" name="launchUrl" finished-at="2025-04-30T22:57:31 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC002_VerifyHomePageTitle()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:31 IST" name="TC002_VerifyHomePageTitle" finished-at="2025-04-30T22:57:31 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_VerifyHomePageTitle -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:31 IST" name="launchUrl" finished-at="2025-04-30T22:57:32 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC003_VerifyISLogoDisplayed()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:32 IST" name="TC003_VerifyISLogoDisplayed" finished-at="2025-04-30T22:57:32 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_VerifyISLogoDisplayed -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:32 IST" name="launchUrl" finished-at="2025-04-30T22:57:32 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC004_verifyCurencyareDisplayedinsideCurrencyLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:32 IST" name="TC004_verifyCurencyareDisplayedinsideCurrencyLink" finished-at="2025-04-30T22:57:32 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_verifyCurencyareDisplayedinsideCurrencyLink -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:32 IST" name="launchUrl" finished-at="2025-04-30T22:57:33 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC005_VerifyEuroCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:33 IST" name="TC005_VerifyEuroCurrencyButtonTest" finished-at="2025-04-30T22:57:34 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_VerifyEuroCurrencyButtonTest -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:34 IST" name="launchUrl" finished-at="2025-04-30T22:57:35 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC006_VerifyPoundCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:35 IST" name="TC006_VerifyPoundCurrencyButtonTest" finished-at="2025-04-30T22:57:36 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_VerifyPoundCurrencyButtonTest -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:36 IST" name="launchUrl" finished-at="2025-04-30T22:57:36 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC007_VerifyDollarCurrencyButtonTest()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:36 IST" name="TC007_VerifyDollarCurrencyButtonTest" finished-at="2025-04-30T22:57:37 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_VerifyDollarCurrencyButtonTest -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:37 IST" name="launchUrl" finished-at="2025-04-30T22:57:37 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC008_VerifyContactlnkRedirectingtoContactPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:37 IST" name="TC008_VerifyContactlnkRedirectingtoContactPage" finished-at="2025-04-30T22:57:38 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_VerifyContactlnkRedirectingtoContactPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:38 IST" name="launchUrl" finished-at="2025-04-30T22:57:39 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC009_verifyLinksareDisplayedinsideMyAccountLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:39 IST" name="TC009_verifyLinksareDisplayedinsideMyAccountLink" finished-at="2025-04-30T22:57:39 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC009_verifyLinksareDisplayedinsideMyAccountLink -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:39 IST" name="launchUrl" finished-at="2025-04-30T22:57:39 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:39 IST" name="TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage" finished-at="2025-04-30T22:57:40 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:40 IST" name="launchUrl" finished-at="2025-04-30T22:57:40 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:40 IST" name="TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage" finished-at="2025-04-30T22:57:41 IST" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:41 IST" name="launchUrl" finished-at="2025-04-30T22:57:41 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:41 IST" name="TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage" finished-at="2025-04-30T22:57:42 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:42 IST" name="launchUrl" finished-at="2025-04-30T22:57:42 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:42 IST" name="TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin" finished-at="2025-04-30T22:57:43 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:43 IST" name="launchUrl" finished-at="2025-04-30T22:57:44 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:44 IST" name="TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin" finished-at="2025-04-30T22:57:44 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:44 IST" name="launchUrl" finished-at="2025-04-30T22:57:45 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:45 IST" name="TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin" finished-at="2025-04-30T22:57:45 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:45 IST" name="launchUrl" finished-at="2025-04-30T22:57:46 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC018_VerifysearchInputBoxIsEnabled()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:46 IST" name="TC018_VerifysearchInputBoxIsEnabled" finished-at="2025-04-30T22:57:46 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC018_VerifysearchInputBoxIsEnabled -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:46 IST" name="launchUrl" finished-at="2025-04-30T22:57:46 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC019_VerifysearchInputBoxWithRegisteredtextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:46 IST" name="TC019_VerifysearchInputBoxWithRegisteredtextValue" finished-at="2025-04-30T22:57:47 IST" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC019_VerifysearchInputBoxWithRegisteredtextValue -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:47 IST" name="launchUrl" finished-at="2025-04-30T22:57:47 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC020_VerifysearchInputBoxWithUnRegisteredtextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:47 IST" name="TC020_VerifysearchInputBoxWithUnRegisteredtextValue" finished-at="2025-04-30T22:57:48 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC020_VerifysearchInputBoxWithUnRegisteredtextValue -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:48 IST" name="launchUrl" finished-at="2025-04-30T22:57:49 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC021_VerifysearchInputBoxWithNotextValue()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:49 IST" name="TC021_VerifysearchInputBoxWithNotextValue" finished-at="2025-04-30T22:57:49 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC021_VerifysearchInputBoxWithNotextValue -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:49 IST" name="launchUrl" finished-at="2025-04-30T22:57:50 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:50 IST" name="TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin" finished-at="2025-04-30T22:57:50 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:50 IST" name="launchUrl" finished-at="2025-04-30T22:57:50 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:50 IST" name="TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage" finished-at="2025-04-30T22:57:54 IST" duration-ms="3416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:54 IST" name="launchUrl" finished-at="2025-04-30T22:57:54 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:54 IST" name="TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage" finished-at="2025-04-30T22:57:58 IST" duration-ms="3554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:58 IST" name="launchUrl" finished-at="2025-04-30T22:57:58 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:57:58 IST" name="TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage" finished-at="2025-04-30T22:58:02 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:02 IST" name="launchUrl" finished-at="2025-04-30T22:58:02 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:02 IST" name="TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage" finished-at="2025-04-30T22:58:05 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:05 IST" name="launchUrl" finished-at="2025-04-30T22:58:06 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC028_VerifyLogoutLinkRedirectingtoLogoutPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:06 IST" name="TC028_VerifyLogoutLinkRedirectingtoLogoutPage" finished-at="2025-04-30T22:58:08 IST" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC028_VerifyLogoutLinkRedirectingtoLogoutPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:08 IST" name="launchUrl" finished-at="2025-04-30T22:58:09 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC029_hoveringMouseOnDesktopsLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:09 IST" name="TC029_hoveringMouseOnDesktopsLink" finished-at="2025-04-30T22:58:09 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC029_hoveringMouseOnDesktopsLink -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:09 IST" name="launchUrl" finished-at="2025-04-30T22:58:09 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC030_PC0LinkisredirectingtoPCPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:09 IST" name="TC030_PC0LinkisredirectingtoPCPage" finished-at="2025-04-30T22:58:10 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC030_PC0LinkisredirectingtoPCPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:10 IST" name="launchUrl" finished-at="2025-04-30T22:58:10 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC031_Mac1LinkisredirectingtoMacPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:10 IST" name="TC031_Mac1LinkisredirectingtoMacPage" finished-at="2025-04-30T22:58:11 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC031_Mac1LinkisredirectingtoMacPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:11 IST" name="launchUrl" finished-at="2025-04-30T22:58:12 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:12 IST" name="TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage" finished-at="2025-04-30T22:58:12 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:12 IST" name="launchUrl" finished-at="2025-04-30T22:58:13 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC033_hoveringMouseOnLaptopsandNotebooksLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:13 IST" name="TC033_hoveringMouseOnLaptopsandNotebooksLink" finished-at="2025-04-30T22:58:13 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC033_hoveringMouseOnLaptopsandNotebooksLink -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:13 IST" name="launchUrl" finished-at="2025-04-30T22:58:14 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC034_Macs0LinkisredirectingtoMacsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:14 IST" name="TC034_Macs0LinkisredirectingtoMacsPage" finished-at="2025-04-30T22:58:15 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC034_Macs0LinkisredirectingtoMacsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:15 IST" name="launchUrl" finished-at="2025-04-30T22:58:15 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC035_windows0LinkisredirectingtoWindowsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:15 IST" name="TC035_windows0LinkisredirectingtoWindowsPage" finished-at="2025-04-30T22:58:16 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC035_windows0LinkisredirectingtoWindowsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:16 IST" name="launchUrl" finished-at="2025-04-30T22:58:16 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:16 IST" name="TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage" finished-at="2025-04-30T22:58:17 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:17 IST" name="launchUrl" finished-at="2025-04-30T22:58:17 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC037_hoveringMouseOncomponentsLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:17 IST" name="TC037_hoveringMouseOncomponentsLink" finished-at="2025-04-30T22:58:18 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC037_hoveringMouseOncomponentsLink -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:18 IST" name="launchUrl" finished-at="2025-04-30T22:58:18 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:18 IST" name="TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage" finished-at="2025-04-30T22:58:19 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:19 IST" name="launchUrl" finished-at="2025-04-30T22:58:19 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC039_monitors2lnkkisredirectingtomonitorsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:19 IST" name="TC039_monitors2lnkkisredirectingtomonitorsPage" finished-at="2025-04-30T22:58:20 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC039_monitors2lnkkisredirectingtomonitorsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:20 IST" name="launchUrl" finished-at="2025-04-30T22:58:20 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC040_printers0lnkisredirectingtoPrinterskPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:20 IST" name="TC040_printers0lnkisredirectingtoPrinterskPage" finished-at="2025-04-30T22:58:21 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC040_printers0lnkisredirectingtoPrinterskPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:21 IST" name="launchUrl" finished-at="2025-04-30T22:58:21 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC041_scanners0lnkisredirectingtoScannersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:21 IST" name="TC041_scanners0lnkisredirectingtoScannersPage" finished-at="2025-04-30T22:58:22 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC041_scanners0lnkisredirectingtoScannersPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:22 IST" name="launchUrl" finished-at="2025-04-30T22:58:23 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC042_webcameras0lnkisredirectingtoWebCamerasPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:23 IST" name="TC042_webcameras0lnkisredirectingtoWebCamerasPage" finished-at="2025-04-30T22:58:23 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC042_webcameras0lnkisredirectingtoWebCamerasPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:23 IST" name="launchUrl" finished-at="2025-04-30T22:58:24 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:24 IST" name="TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage" finished-at="2025-04-30T22:58:24 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:24 IST" name="launchUrl" finished-at="2025-04-30T22:58:25 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC044_ClickontabletslnkRedirectingtoTabletsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:25 IST" name="TC044_ClickontabletslnkRedirectingtoTabletsPage" finished-at="2025-04-30T22:58:25 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC044_ClickontabletslnkRedirectingtoTabletsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:25 IST" name="launchUrl" finished-at="2025-04-30T22:58:26 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC045_ClickonsofwarelnkRedirectingtoSoftwarePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:26 IST" name="TC045_ClickonsofwarelnkRedirectingtoSoftwarePage" finished-at="2025-04-30T22:58:26 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC045_ClickonsofwarelnkRedirectingtoSoftwarePage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:26 IST" name="launchUrl" finished-at="2025-04-30T22:58:27 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:27 IST" name="TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage" finished-at="2025-04-30T22:58:27 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:27 IST" name="launchUrl" finished-at="2025-04-30T22:58:28 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC047_ClickoncameraslnkRedirectingtoCamerasPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:28 IST" name="TC047_ClickoncameraslnkRedirectingtoCamerasPage" finished-at="2025-04-30T22:58:28 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC047_ClickoncameraslnkRedirectingtoCamerasPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:28 IST" name="launchUrl" finished-at="2025-04-30T22:58:29 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC048_hoveringMouseOnMp3PlayersLink()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:29 IST" name="TC048_hoveringMouseOnMp3PlayersLink" finished-at="2025-04-30T22:58:30 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC048_hoveringMouseOnMp3PlayersLink -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:30 IST" name="launchUrl" finished-at="2025-04-30T22:58:30 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC049_ClickonTest11_0_lnkRedirectingtotest11Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:30 IST" name="TC049_ClickonTest11_0_lnkRedirectingtotest11Page" finished-at="2025-04-30T22:58:31 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC049_ClickonTest11_0_lnkRedirectingtotest11Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:31 IST" name="launchUrl" finished-at="2025-04-30T22:58:31 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC050_ClickonTest12_0_lnkRedirectingtotest12Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:31 IST" name="TC050_ClickonTest12_0_lnkRedirectingtotest12Page" finished-at="2025-04-30T22:58:32 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC050_ClickonTest12_0_lnkRedirectingtotest12Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:32 IST" name="launchUrl" finished-at="2025-04-30T22:58:32 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC051_ClickonTest15_0_lnkRedirectingtotest15Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:32 IST" name="TC051_ClickonTest15_0_lnkRedirectingtotest15Page" finished-at="2025-04-30T22:58:33 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC051_ClickonTest15_0_lnkRedirectingtotest15Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:33 IST" name="launchUrl" finished-at="2025-04-30T22:58:33 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC052_ClickonTest16_0_lnkRedirectingtotest16Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:33 IST" name="TC052_ClickonTest16_0_lnkRedirectingtotest16Page" finished-at="2025-04-30T22:58:34 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC052_ClickonTest16_0_lnkRedirectingtotest16Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:34 IST" name="launchUrl" finished-at="2025-04-30T22:58:34 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC053_ClickonTest17_0_lnkRedirectingtotest17Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:34 IST" name="TC053_ClickonTest17_0_lnkRedirectingtotest17Page" finished-at="2025-04-30T22:58:35 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC053_ClickonTest17_0_lnkRedirectingtotest17Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:35 IST" name="launchUrl" finished-at="2025-04-30T22:58:35 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC054_ClickonTest18_0_lnkRedirectingtotest18Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:35 IST" name="TC054_ClickonTest18_0_lnkRedirectingtotest18Page" finished-at="2025-04-30T22:58:36 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC054_ClickonTest18_0_lnkRedirectingtotest18Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:36 IST" name="launchUrl" finished-at="2025-04-30T22:58:36 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC055_ClickonTest19_0_lnkRedirectingtotest19Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:36 IST" name="TC055_ClickonTest19_0_lnkRedirectingtotest19Page" finished-at="2025-04-30T22:58:37 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC055_ClickonTest19_0_lnkRedirectingtotest19Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:37 IST" name="launchUrl" finished-at="2025-04-30T22:58:37 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC056_ClickonTest20_0_lnkRedirectingtotest20Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:37 IST" name="TC056_ClickonTest20_0_lnkRedirectingtotest20Page" finished-at="2025-04-30T22:58:38 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC056_ClickonTest20_0_lnkRedirectingtotest20Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:38 IST" name="launchUrl" finished-at="2025-04-30T22:58:39 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC057_ClickonTest21_0_lnkRedirectingtotest21Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:39 IST" name="TC057_ClickonTest21_0_lnkRedirectingtotest21Page" finished-at="2025-04-30T22:58:39 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC057_ClickonTest21_0_lnkRedirectingtotest21Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:39 IST" name="launchUrl" finished-at="2025-04-30T22:58:40 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC058_ClickonTest22_0_lnkRedirectingtotest22Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:40 IST" name="TC058_ClickonTest22_0_lnkRedirectingtotest22Page" finished-at="2025-04-30T22:58:40 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC058_ClickonTest22_0_lnkRedirectingtotest22Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:40 IST" name="launchUrl" finished-at="2025-04-30T22:58:41 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC059_ClickonTest23_0_lnkRedirectingtotest23Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:41 IST" name="TC059_ClickonTest23_0_lnkRedirectingtotest23Page" finished-at="2025-04-30T22:58:41 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC059_ClickonTest23_0_lnkRedirectingtotest23Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:41 IST" name="launchUrl" finished-at="2025-04-30T22:58:42 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC060_ClickonTest24_0_lnkRedirectingtotest24Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:42 IST" name="TC060_ClickonTest24_0_lnkRedirectingtotest24Page" finished-at="2025-04-30T22:58:43 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC060_ClickonTest24_0_lnkRedirectingtotest24Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:43 IST" name="launchUrl" finished-at="2025-04-30T22:58:43 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC061_ClickonTest4_0_lnkRedirectingtotest4Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:43 IST" name="TC061_ClickonTest4_0_lnkRedirectingtotest4Page" finished-at="2025-04-30T22:58:44 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC061_ClickonTest4_0_lnkRedirectingtotest4Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:44 IST" name="launchUrl" finished-at="2025-04-30T22:58:44 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC062_ClickonTest5_0_lnkRedirectingtotest5Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:44 IST" name="TC062_ClickonTest5_0_lnkRedirectingtotest5Page" finished-at="2025-04-30T22:58:45 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC062_ClickonTest5_0_lnkRedirectingtotest5Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:45 IST" name="launchUrl" finished-at="2025-04-30T22:58:45 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC063_ClickonTest6_0_lnkRedirectingtotest6Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:45 IST" name="TC063_ClickonTest6_0_lnkRedirectingtotest6Page" finished-at="2025-04-30T22:58:46 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC063_ClickonTest6_0_lnkRedirectingtotest6Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:46 IST" name="launchUrl" finished-at="2025-04-30T22:58:46 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC064_ClickonTest7_0_lnkRedirectingtotest7Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:46 IST" name="TC064_ClickonTest7_0_lnkRedirectingtotest7Page" finished-at="2025-04-30T22:58:47 IST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC064_ClickonTest7_0_lnkRedirectingtotest7Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:47 IST" name="launchUrl" finished-at="2025-04-30T22:58:47 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC065_ClickonTest8_0_lnkRedirectingtotest8Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:47 IST" name="TC065_ClickonTest8_0_lnkRedirectingtotest8Page" finished-at="2025-04-30T22:58:48 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC065_ClickonTest8_0_lnkRedirectingtotest8Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:48 IST" name="launchUrl" finished-at="2025-04-30T22:58:48 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC066_ClickonTest9_0_lnkRedirectingtotest9Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:48 IST" name="TC066_ClickonTest9_0_lnkRedirectingtotest9Page" finished-at="2025-04-30T22:58:50 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC066_ClickonTest9_0_lnkRedirectingtotest9Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:50 IST" name="launchUrl" finished-at="2025-04-30T22:58:51 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:51 IST" name="TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage" finished-at="2025-04-30T22:58:52 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:52 IST" name="launchUrl" finished-at="2025-04-30T22:58:52 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC068_verifyFourProductsInFeaturedHeadline()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:52 IST" name="TC068_verifyFourProductsInFeaturedHeadline" finished-at="2025-04-30T22:58:52 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC068_verifyFourProductsInFeaturedHeadline -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:52 IST" name="launchUrl" finished-at="2025-04-30T22:58:53 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC069_VerifyMacBooklinkisredirectingtoMacBookpage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:53 IST" name="TC069_VerifyMacBooklinkisredirectingtoMacBookpage" finished-at="2025-04-30T22:58:54 IST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC069_VerifyMacBooklinkisredirectingtoMacBookpage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:54 IST" name="launchUrl" finished-at="2025-04-30T22:58:55 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC070_VerifyMacBookDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:55 IST" name="TC070_VerifyMacBookDescription" finished-at="2025-04-30T22:58:55 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC070_VerifyMacBookDescription -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:55 IST" name="launchUrl" finished-at="2025-04-30T22:58:55 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC071_VerifyMacBookTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:55 IST" name="TC071_VerifyMacBookTax" finished-at="2025-04-30T22:58:55 IST" duration-ms="105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Tax is not matching expected [Tax:$600.00] but found [$602.00
+Ex Tax:$500.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Tax is not matching expected [Tax:$600.00] but found [$602.00
+Ex Tax:$500.00]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testcases.HomePage_TestCases.TC071_VerifyMacBookTax(HomePage_TestCases.java:1269)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC071_VerifyMacBookTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:55 IST" name="launchUrl" finished-at="2025-04-30T22:58:56 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC072_VerifyMacBookExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:56 IST" name="TC072_VerifyMacBookExTax" finished-at="2025-04-30T22:58:56 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC072_VerifyMacBookExTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:56 IST" name="launchUrl" finished-at="2025-04-30T22:58:56 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:56 IST" name="TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct" finished-at="2025-04-30T22:58:56 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:56 IST" name="launchUrl" finished-at="2025-04-30T22:58:57 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC074_VerifyAddtoCartButtonofMacBookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:57 IST" name="TC074_VerifyAddtoCartButtonofMacBookProduct" finished-at="2025-04-30T22:58:57 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC074_VerifyAddtoCartButtonofMacBookProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:57 IST" name="launchUrl" finished-at="2025-04-30T22:58:58 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:58 IST" name="TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin" finished-at="2025-04-30T22:58:58 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:58 IST" name="launchUrl" finished-at="2025-04-30T22:58:59 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:58:59 IST" name="TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin" finished-at="2025-04-30T22:59:03 IST" duration-ms="4657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:03 IST" name="launchUrl" finished-at="2025-04-30T22:59:04 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC077_VerifyCompareThisProductsButtonofMacBookProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:04 IST" name="TC077_VerifyCompareThisProductsButtonofMacBookProduct" finished-at="2025-04-30T22:59:04 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC077_VerifyCompareThisProductsButtonofMacBookProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:04 IST" name="launchUrl" finished-at="2025-04-30T22:59:05 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC078_VerifyiphoneLnkisRedirectToiphonePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:05 IST" name="TC078_VerifyiphoneLnkisRedirectToiphonePage" finished-at="2025-04-30T22:59:05 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC078_VerifyiphoneLnkisRedirectToiphonePage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:05 IST" name="launchUrl" finished-at="2025-04-30T22:59:06 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC079_VerifyiPhoneDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:06 IST" name="TC079_VerifyiPhoneDescription" finished-at="2025-04-30T22:59:06 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC079_VerifyiPhoneDescription -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:06 IST" name="launchUrl" finished-at="2025-04-30T22:59:06 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC080_VerifyiPhoneExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:06 IST" name="TC080_VerifyiPhoneExTax" finished-at="2025-04-30T22:59:06 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC080_VerifyiPhoneExTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:06 IST" name="launchUrl" finished-at="2025-04-30T22:59:07 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC081_VerifyiPhoneTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:07 IST" name="TC081_VerifyiPhoneTax" finished-at="2025-04-30T22:59:07 IST" duration-ms="95" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Tax is not matching expected [$123.00] but found [$123.20
+Ex Tax:$101.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Tax is not matching expected [$123.00] but found [$123.20
+Ex Tax:$101.00]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testcases.HomePage_TestCases.TC081_VerifyiPhoneTax(HomePage_TestCases.java:1464)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC081_VerifyiPhoneTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:07 IST" name="launchUrl" finished-at="2025-04-30T22:59:08 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:08 IST" name="TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct" finished-at="2025-04-30T22:59:08 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:08 IST" name="launchUrl" finished-at="2025-04-30T22:59:08 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC083_VerifyAddtoCartButtonofiPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:08 IST" name="TC083_VerifyAddtoCartButtonofiPhoneProduct" finished-at="2025-04-30T22:59:08 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC083_VerifyAddtoCartButtonofiPhoneProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:08 IST" name="launchUrl" finished-at="2025-04-30T22:59:09 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:09 IST" name="TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin" finished-at="2025-04-30T22:59:09 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:09 IST" name="launchUrl" finished-at="2025-04-30T22:59:09 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:09 IST" name="TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin" finished-at="2025-04-30T22:59:15 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:15 IST" name="launchUrl" finished-at="2025-04-30T22:59:16 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC086_VerifyCompareThisProductsButtonofiPhoneProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:16 IST" name="TC086_VerifyCompareThisProductsButtonofiPhoneProduct" finished-at="2025-04-30T22:59:16 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC086_VerifyCompareThisProductsButtonofiPhoneProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:16 IST" name="launchUrl" finished-at="2025-04-30T22:59:17 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:17 IST" name="TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page" finished-at="2025-04-30T22:59:17 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:17 IST" name="launchUrl" finished-at="2025-04-30T22:59:18 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC088_VerifyAppleCinema30Description()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:18 IST" name="TC088_VerifyAppleCinema30Description" finished-at="2025-04-30T22:59:18 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC088_VerifyAppleCinema30Description -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:18 IST" name="launchUrl" finished-at="2025-04-30T22:59:18 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC089_VerifyAppleCinema30ExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:18 IST" name="TC089_VerifyAppleCinema30ExTax" finished-at="2025-04-30T22:59:18 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC089_VerifyAppleCinema30ExTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:18 IST" name="launchUrl" finished-at="2025-04-30T22:59:19 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC090_VerifyAppleCinema30NewTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:19 IST" name="TC090_VerifyAppleCinema30NewTax" finished-at="2025-04-30T22:59:19 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC090_VerifyAppleCinema30NewTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:19 IST" name="launchUrl" finished-at="2025-04-30T22:59:19 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC091_VerifyAppleCinema30OldTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:19 IST" name="TC091_VerifyAppleCinema30OldTax" finished-at="2025-04-30T22:59:19 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC091_VerifyAppleCinema30OldTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:19 IST" name="launchUrl" finished-at="2025-04-30T22:59:20 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:20 IST" name="TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product" finished-at="2025-04-30T22:59:20 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:20 IST" name="launchUrl" finished-at="2025-04-30T22:59:20 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:20 IST" name="TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage" finished-at="2025-04-30T22:59:21 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:21 IST" name="launchUrl" finished-at="2025-04-30T22:59:21 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:21 IST" name="TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin" finished-at="2025-04-30T22:59:22 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:22 IST" name="launchUrl" finished-at="2025-04-30T22:59:22 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:22 IST" name="TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin" finished-at="2025-04-30T22:59:27 IST" duration-ms="5279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:27 IST" name="launchUrl" finished-at="2025-04-30T22:59:28 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC096_VerifyCompareThisProductsButtonofAppleCinema30Product()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:28 IST" name="TC096_VerifyCompareThisProductsButtonofAppleCinema30Product" finished-at="2025-04-30T22:59:28 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC096_VerifyCompareThisProductsButtonofAppleCinema30Product -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:28 IST" name="launchUrl" finished-at="2025-04-30T22:59:28 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:28 IST" name="TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage" finished-at="2025-04-30T22:59:29 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:29 IST" name="launchUrl" finished-at="2025-04-30T22:59:29 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC098_VerifyCanonEOS5DDescription()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:29 IST" name="TC098_VerifyCanonEOS5DDescription" finished-at="2025-04-30T22:59:30 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC098_VerifyCanonEOS5DDescription -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:30 IST" name="launchUrl" finished-at="2025-04-30T22:59:30 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC099_VerifyCanonEOS5DExTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:30 IST" name="TC099_VerifyCanonEOS5DExTax" finished-at="2025-04-30T22:59:30 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC099_VerifyCanonEOS5DExTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:30 IST" name="launchUrl" finished-at="2025-04-30T22:59:30 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC100_VerifyCanonEOS5DNewTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:30 IST" name="TC100_VerifyCanonEOS5DNewTax" finished-at="2025-04-30T22:59:31 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC100_VerifyCanonEOS5DNewTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:31 IST" name="launchUrl" finished-at="2025-04-30T22:59:31 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC101_VerifyCanonEOS5DOldTax()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:31 IST" name="TC101_VerifyCanonEOS5DOldTax" finished-at="2025-04-30T22:59:31 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_VerifyCanonEOS5DOldTax -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:31 IST" name="launchUrl" finished-at="2025-04-30T22:59:31 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:31 IST" name="TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct" finished-at="2025-04-30T22:59:31 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:31 IST" name="launchUrl" finished-at="2025-04-30T22:59:31 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:31 IST" name="TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin" finished-at="2025-04-30T22:59:32 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:32 IST" name="launchUrl" finished-at="2025-04-30T22:59:32 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:32 IST" name="TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin" finished-at="2025-04-30T22:59:37 IST" duration-ms="4785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:37 IST" name="launchUrl" finished-at="2025-04-30T22:59:37 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:37 IST" name="TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct" finished-at="2025-04-30T22:59:38 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:38 IST" name="launchUrl" finished-at="2025-04-30T22:59:38 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:38 IST" name="TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage" finished-at="2025-04-30T22:59:39 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:39 IST" name="launchUrl" finished-at="2025-04-30T22:59:39 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:39 IST" name="TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage" finished-at="2025-04-30T22:59:40 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:40 IST" name="launchUrl" finished-at="2025-04-30T22:59:40 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:40 IST" name="TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage" finished-at="2025-04-30T22:59:41 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:41 IST" name="launchUrl" finished-at="2025-04-30T22:59:41 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:41 IST" name="TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage" finished-at="2025-04-30T22:59:42 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:42 IST" name="launchUrl" finished-at="2025-04-30T22:59:42 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:42 IST" name="TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage" finished-at="2025-04-30T22:59:43 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:43 IST" name="launchUrl" finished-at="2025-04-30T22:59:43 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:43 IST" name="TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage" finished-at="2025-04-30T22:59:44 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:44 IST" name="launchUrl" finished-at="2025-04-30T22:59:44 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:44 IST" name="TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage" finished-at="2025-04-30T22:59:45 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:45 IST" name="launchUrl" finished-at="2025-04-30T22:59:45 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:45 IST" name="TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage" finished-at="2025-04-30T22:59:46 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:46 IST" name="launchUrl" finished-at="2025-04-30T22:59:46 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:46 IST" name="TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage" finished-at="2025-04-30T22:59:47 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:47 IST" name="launchUrl" finished-at="2025-04-30T22:59:47 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:47 IST" name="TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin" finished-at="2025-04-30T22:59:48 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:48 IST" name="launchUrl" finished-at="2025-04-30T22:59:48 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:48 IST" name="TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin" finished-at="2025-04-30T22:59:52 IST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:52 IST" name="launchUrl" finished-at="2025-04-30T22:59:52 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:52 IST" name="TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage" finished-at="2025-04-30T22:59:53 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePage_TestCases@6bbe2511]" started-at="2025-04-30T22:59:53 IST" name="tearDown" finished-at="2025-04-30T22:59:53 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePage_TestCases -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Test Suite -->
 </testng-results>

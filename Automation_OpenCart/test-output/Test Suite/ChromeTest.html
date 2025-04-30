@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>114/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 28 23:19:31 IST 2024</td>
+<td>Started on:</td><td>Wed Apr 30 22:57:17 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>36 seconds (36788 ms)</td>
+<tr><td>Total time:</td><td>181 seconds (181953 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Master </td>
 </tr><tr>
@@ -67,6 +67,103 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC081_VerifyiPhoneTax()'><b>TC081_VerifyiPhoneTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td><div><pre>java.lang.AssertionError: Tax is not matching expected [$123.00] but found [$123.20
+Ex Tax:$101.00]
+	at testcases.HomePage_TestCases.TC081_VerifyiPhoneTax(HomePage_TestCases.java:1464)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace118105337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace118105337'><pre>java.lang.AssertionError: Tax is not matching expected [$123.00] but found [$123.20
+Ex Tax:$101.00]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testcases.HomePage_TestCases.TC081_VerifyiPhoneTax(HomePage_TestCases.java:1464)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC071_VerifyMacBookTax()'><b>TC071_VerifyMacBookTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td><div><pre>java.lang.AssertionError: Tax is not matching expected [Tax:$600.00] but found [$602.00
+Ex Tax:$500.00]
+	at testcases.HomePage_TestCases.TC071_VerifyMacBookTax(HomePage_TestCases.java:1269)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1860905408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1860905408'><pre>java.lang.AssertionError: Tax is not matching expected [Tax:$600.00] but found [$602.00
+Ex Tax:$500.00]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testcases.HomePage_TestCases.TC071_VerifyMacBookTax(HomePage_TestCases.java:1269)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,15 +173,575 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TC001_AccountRegistractionTest.TC001_AccountRegistrationTest()'><b>TC001_AccountRegistrationTest</b><br>Test class: testcases.TC001_AccountRegistractionTest</td>
+<td title='testcases.HomePage_TestCases.TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage()'><b>TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage</b><br>Test class: testcases.HomePage_TestCases</td>
 <td></td>
-<td>7</td>
-<td>testcases.TC001_AccountRegistractionTest@62ef27a8</td></tr>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC080_VerifyiPhoneExTax()'><b>TC080_VerifyiPhoneExTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC083_VerifyAddtoCartButtonofiPhoneProduct()'><b>TC083_VerifyAddtoCartButtonofiPhoneProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product()'><b>TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage()'><b>TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>3</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC063_ClickonTest6_0_lnkRedirectingtotest6Page()'><b>TC063_ClickonTest6_0_lnkRedirectingtotest6Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC068_verifyFourProductsInFeaturedHeadline()'><b>TC068_verifyFourProductsInFeaturedHeadline</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC004_verifyCurencyareDisplayedinsideCurrencyLink()'><b>TC004_verifyCurencyareDisplayedinsideCurrencyLink</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin()'><b>TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin()'><b>TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC079_VerifyiPhoneDescription()'><b>TC079_VerifyiPhoneDescription</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC039_monitors2lnkkisredirectingtomonitorsPage()'><b>TC039_monitors2lnkkisredirectingtomonitorsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC048_hoveringMouseOnMp3PlayersLink()'><b>TC048_hoveringMouseOnMp3PlayersLink</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage()'><b>TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>3</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC086_VerifyCompareThisProductsButtonofiPhoneProduct()'><b>TC086_VerifyCompareThisProductsButtonofiPhoneProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC029_hoveringMouseOnDesktopsLink()'><b>TC029_hoveringMouseOnDesktopsLink</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin()'><b>TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage()'><b>TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC099_VerifyCanonEOS5DExTax()'><b>TC099_VerifyCanonEOS5DExTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC056_ClickonTest20_0_lnkRedirectingtotest20Page()'><b>TC056_ClickonTest20_0_lnkRedirectingtotest20Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>1</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin()'><b>TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC077_VerifyCompareThisProductsButtonofMacBookProduct()'><b>TC077_VerifyCompareThisProductsButtonofMacBookProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC057_ClickonTest21_0_lnkRedirectingtotest21Page()'><b>TC057_ClickonTest21_0_lnkRedirectingtotest21Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC044_ClickontabletslnkRedirectingtoTabletsPage()'><b>TC044_ClickontabletslnkRedirectingtoTabletsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page()'><b>TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC033_hoveringMouseOnLaptopsandNotebooksLink()'><b>TC033_hoveringMouseOnLaptopsandNotebooksLink</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC074_VerifyAddtoCartButtonofMacBookProduct()'><b>TC074_VerifyAddtoCartButtonofMacBookProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC045_ClickonsofwarelnkRedirectingtoSoftwarePage()'><b>TC045_ClickonsofwarelnkRedirectingtoSoftwarePage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC058_ClickonTest22_0_lnkRedirectingtotest22Page()'><b>TC058_ClickonTest22_0_lnkRedirectingtotest22Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage()'><b>TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC053_ClickonTest17_0_lnkRedirectingtotest17Page()'><b>TC053_ClickonTest17_0_lnkRedirectingtotest17Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin()'><b>TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>5</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC050_ClickonTest12_0_lnkRedirectingtotest12Page()'><b>TC050_ClickonTest12_0_lnkRedirectingtotest12Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC072_VerifyMacBookExTax()'><b>TC072_VerifyMacBookExTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC002_VerifyHomePageTitle()'><b>TC002_VerifyHomePageTitle</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC051_ClickonTest15_0_lnkRedirectingtotest15Page()'><b>TC051_ClickonTest15_0_lnkRedirectingtotest15Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage()'><b>TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC005_VerifyEuroCurrencyButtonTest()'><b>TC005_VerifyEuroCurrencyButtonTest</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>1</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC090_VerifyAppleCinema30NewTax()'><b>TC090_VerifyAppleCinema30NewTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC037_hoveringMouseOncomponentsLink()'><b>TC037_hoveringMouseOncomponentsLink</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin()'><b>TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>4</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage()'><b>TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC047_ClickoncameraslnkRedirectingtoCamerasPage()'><b>TC047_ClickoncameraslnkRedirectingtoCamerasPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin()'><b>TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>4</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC088_VerifyAppleCinema30Description()'><b>TC088_VerifyAppleCinema30Description</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC003_VerifyISLogoDisplayed()'><b>TC003_VerifyISLogoDisplayed</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC018_VerifysearchInputBoxIsEnabled()'><b>TC018_VerifysearchInputBoxIsEnabled</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC060_ClickonTest24_0_lnkRedirectingtotest24Page()'><b>TC060_ClickonTest24_0_lnkRedirectingtotest24Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage()'><b>TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC001_VerifyHomePageLoadSuccessfully()'><b>TC001_VerifyHomePageLoadSuccessfully</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC041_scanners0lnkisredirectingtoScannersPage()'><b>TC041_scanners0lnkisredirectingtoScannersPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin()'><b>TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct()'><b>TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC031_Mac1LinkisredirectingtoMacPage()'><b>TC031_Mac1LinkisredirectingtoMacPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct()'><b>TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage()'><b>TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>1</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC089_VerifyAppleCinema30ExTax()'><b>TC089_VerifyAppleCinema30ExTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage()'><b>TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC019_VerifysearchInputBoxWithRegisteredtextValue()'><b>TC019_VerifysearchInputBoxWithRegisteredtextValue</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC070_VerifyMacBookDescription()'><b>TC070_VerifyMacBookDescription</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC066_ClickonTest9_0_lnkRedirectingtotest9Page()'><b>TC066_ClickonTest9_0_lnkRedirectingtotest9Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>1</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage()'><b>TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>3</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage()'><b>TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage()'><b>TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC101_VerifyCanonEOS5DOldTax()'><b>TC101_VerifyCanonEOS5DOldTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC061_ClickonTest4_0_lnkRedirectingtotest4Page()'><b>TC061_ClickonTest4_0_lnkRedirectingtotest4Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC040_printers0lnkisredirectingtoPrinterskPage()'><b>TC040_printers0lnkisredirectingtoPrinterskPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage()'><b>TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC049_ClickonTest11_0_lnkRedirectingtotest11Page()'><b>TC049_ClickonTest11_0_lnkRedirectingtotest11Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage()'><b>TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC100_VerifyCanonEOS5DNewTax()'><b>TC100_VerifyCanonEOS5DNewTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct()'><b>TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage()'><b>TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>3</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC054_ClickonTest18_0_lnkRedirectingtotest18Page()'><b>TC054_ClickonTest18_0_lnkRedirectingtotest18Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
 <tr>
 <td title='testcases.TC002_LoginTest.verify_Login()'><b>verify_Login</b><br>Test class: testcases.TC002_LoginTest</td>
 <td></td>
 <td>2</td>
-<td>testcases.TC002_LoginTest@16fdec90</td></tr>
+<td>testcases.TC002_LoginTest@7a1a3478</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC062_ClickonTest5_0_lnkRedirectingtotest5Page()'><b>TC062_ClickonTest5_0_lnkRedirectingtotest5Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin()'><b>TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin()'><b>TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin()'><b>TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>5</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC078_VerifyiphoneLnkisRedirectToiphonePage()'><b>TC078_VerifyiphoneLnkisRedirectToiphonePage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage()'><b>TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC034_Macs0LinkisredirectingtoMacsPage()'><b>TC034_Macs0LinkisredirectingtoMacsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin()'><b>TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>3</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC096_VerifyCompareThisProductsButtonofAppleCinema30Product()'><b>TC096_VerifyCompareThisProductsButtonofAppleCinema30Product</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC091_VerifyAppleCinema30OldTax()'><b>TC091_VerifyAppleCinema30OldTax</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage()'><b>TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC035_windows0LinkisredirectingtoWindowsPage()'><b>TC035_windows0LinkisredirectingtoWindowsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin()'><b>TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage()'><b>TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC020_VerifysearchInputBoxWithUnRegisteredtextValue()'><b>TC020_VerifysearchInputBoxWithUnRegisteredtextValue</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage()'><b>TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC059_ClickonTest23_0_lnkRedirectingtotest23Page()'><b>TC059_ClickonTest23_0_lnkRedirectingtotest23Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC098_VerifyCanonEOS5DDescription()'><b>TC098_VerifyCanonEOS5DDescription</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC021_VerifysearchInputBoxWithNotextValue()'><b>TC021_VerifysearchInputBoxWithNotextValue</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC055_ClickonTest19_0_lnkRedirectingtotest19Page()'><b>TC055_ClickonTest19_0_lnkRedirectingtotest19Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC069_VerifyMacBooklinkisredirectingtoMacBookpage()'><b>TC069_VerifyMacBooklinkisredirectingtoMacBookpage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>1</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC065_ClickonTest8_0_lnkRedirectingtotest8Page()'><b>TC065_ClickonTest8_0_lnkRedirectingtotest8Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC007_VerifyDollarCurrencyButtonTest()'><b>TC007_VerifyDollarCurrencyButtonTest</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage()'><b>TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.TC001_AccountRegistractionTest.TC001_AccountRegistrationTest()'><b>TC001_AccountRegistrationTest</b><br>Test class: testcases.TC001_AccountRegistractionTest</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC001_AccountRegistractionTest@3212a8d7</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC028_VerifyLogoutLinkRedirectingtoLogoutPage()'><b>TC028_VerifyLogoutLinkRedirectingtoLogoutPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>2</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct()'><b>TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC042_webcameras0lnkisredirectingtoWebCamerasPage()'><b>TC042_webcameras0lnkisredirectingtoWebCamerasPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage()'><b>TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC009_verifyLinksareDisplayedinsideMyAccountLink()'><b>TC009_verifyLinksareDisplayedinsideMyAccountLink</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC030_PC0LinkisredirectingtoPCPage()'><b>TC030_PC0LinkisredirectingtoPCPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC006_VerifyPoundCurrencyButtonTest()'><b>TC006_VerifyPoundCurrencyButtonTest</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin()'><b>TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC008_VerifyContactlnkRedirectingtoContactPage()'><b>TC008_VerifyContactlnkRedirectingtoContactPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage()'><b>TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage()'><b>TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC052_ClickonTest16_0_lnkRedirectingtotest16Page()'><b>TC052_ClickonTest16_0_lnkRedirectingtotest16Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC064_ClickonTest7_0_lnkRedirectingtotest7Page()'><b>TC064_ClickonTest7_0_lnkRedirectingtotest7Page</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
+<tr>
+<td title='testcases.HomePage_TestCases.TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage()'><b>TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage</b><br>Test class: testcases.HomePage_TestCases</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePage_TestCases@6bbe2511</td></tr>
 </table><p>
 </body>
 </html>

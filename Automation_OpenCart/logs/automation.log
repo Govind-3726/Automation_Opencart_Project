@@ -1,0 +1,297 @@
+22:57:17.216 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Govind Chauhan\git\Automation_Opencart_Project\Automation_OpenCart\Master.xml
+
+22:57:18.785 [main] INFO  testcases.HomePage_TestCases - Test setup is starting...
+22:57:18.785 [main] INFO  testcases.HomePage_TestCases - Test is Running in Local Environment
+22:57:24.797 [main] INFO  testcases.HomePage_TestCases - Chrome browser selected
+22:57:26.513 [main] INFO  testcases.HomePage_TestCases - Browser setup complete
+22:57:29.891 [main] INFO  testcases.HomePage_TestCases - *****Starting TC001_VerifyHomePageLoadSuccessfully*****
+22:57:29.945 [main] INFO  testcases.HomePage_TestCases - *****Finished TC001_VerifyHomePageLoadSuccessfully*****
+22:57:31.742 [main] INFO  testcases.HomePage_TestCases - *****Starting TC002_VerifyHomePageTitle*****
+22:57:31.762 [main] INFO  testcases.HomePage_TestCases - *****Finished TC002_VerifyHomePageTitle*****
+22:57:32.074 [main] INFO  testcases.HomePage_TestCases - *****Starting TC003_VerifyISLogoDisplayed*****
+22:57:32.265 [main] INFO  testcases.HomePage_TestCases - *****Finished TC002_VerifyHomePageTitle*****
+22:57:32.606 [main] INFO  testcases.HomePage_TestCases - *****Starting TC004_verifyCurencyareDisplayedinsideCurrencyLink*****
+22:57:32.968 [main] INFO  testcases.HomePage_TestCases - *****Finished TC004_verifyCurencyareDisplayedinsideCurrencyLink*****
+22:57:33.332 [main] INFO  testcases.HomePage_TestCases - *****Starting TC005_VerifyEuroCurrencyButtonTest*****
+22:57:34.336 [main] INFO  testcases.HomePage_TestCases - 13places € sign has been changed.
+22:57:34.337 [main] INFO  testcases.HomePage_TestCases - *****Finished TC005_VerifyEuroCurrencyButtonTest*****
+22:57:35.310 [main] INFO  testcases.HomePage_TestCases - *****Starting TC006_VerifyPoundCurrencyButtonTest*****
+22:57:36.259 [main] INFO  testcases.HomePage_TestCases - 13places £ sign has been changed.
+22:57:36.260 [main] INFO  testcases.HomePage_TestCases - *****Finished TC006_PoundCurrencyButtonTest*****
+22:57:36.687 [main] INFO  testcases.HomePage_TestCases - *****Starting TC007_VerifyDollarCurrencyButtonTest*****
+22:57:37.588 [main] INFO  testcases.HomePage_TestCases - 15places $ sign has been changed.
+22:57:37.588 [main] INFO  testcases.HomePage_TestCases - *****Finished TC007_VerifyDollarCurrencyButtonTest*****
+22:57:37.992 [main] INFO  testcases.HomePage_TestCases - *****Starting TC008_VerifyContactlnkRedirectingtoContactPage*****
+22:57:38.906 [main] INFO  testcases.HomePage_TestCases - *****Finished TC008_VerifyContactlnkRedirectingtoContactPage*****
+22:57:39.311 [main] INFO  testcases.HomePage_TestCases - *****Starting TC009_verifyLinksareDisplayedinsideMyAccountLink*****
+22:57:39.619 [main] INFO  testcases.HomePage_TestCases - *****Finished TC009_verifyLinksareDisplayedinsideMyAccountLink*****
+22:57:39.938 [main] INFO  testcases.HomePage_TestCases - *****Starting TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage*****
+22:57:40.004 [main] INFO  testcases.HomePage_TestCases - *****Finished TC0103_VerifyAddtoCartButtonoRedirectingToCanonEOS5DProductPage*****
+22:57:40.315 [main] INFO  testcases.HomePage_TestCases - *****Starting TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage*****
+22:57:41.363 [main] INFO  testcases.HomePage_TestCases - *****Finished TC010_VerifyRegisterlnkRedirectingtoRegisterAccountPage*****
+22:57:41.824 [main] INFO  testcases.HomePage_TestCases - *****Starting TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage*****
+22:57:42.542 [main] INFO  testcases.HomePage_TestCases - *****Finished TC011_VerifyLoginlnkRedirectingtoReturingCustomerPage*****
+22:57:43.005 [main] INFO  testcases.HomePage_TestCases - *****Starting TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin*****
+22:57:43.770 [main] INFO  testcases.HomePage_TestCases - *****Finished TC012_VerifyWishListlnkRedirectingtoReturingCustomerPageWithoutLogin*****
+22:57:44.180 [main] INFO  testcases.HomePage_TestCases - *****Starting TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin*****
+22:57:44.726 [main] INFO  testcases.HomePage_TestCases - *****Finished TC014_VerifyShoppingCartlnkRedirectingtoShoppingCartPageWithoutLogin*****
+22:57:45.125 [main] INFO  testcases.HomePage_TestCases - *****Starting TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin*****
+22:57:45.728 [main] INFO  testcases.HomePage_TestCases - *****Finished TC016_VerifycheckoutlnkRedirectingtoShoppingCartPageWithoutLogin*****
+22:57:46.096 [main] INFO  testcases.HomePage_TestCases - *****Starting TC018_VerifysearchInputBoxIsEnabled*****
+22:57:46.172 [main] INFO  testcases.HomePage_TestCases - *****Finished TC018_VerifysearchInputBoxIsEnabled*****
+22:57:46.541 [main] INFO  testcases.HomePage_TestCases - *****Starting TC019_VerifysearchInputBoxWithRegisteredtextValue*****
+22:57:47.463 [main] INFO  testcases.HomePage_TestCases - 4 products are shown...
+22:57:47.463 [main] INFO  testcases.HomePage_TestCases - *****Finished TC019_VerifysearchInputBoxWithRegisteredtextValue*****
+22:57:47.823 [main] INFO  testcases.HomePage_TestCases - *****Starting TC020_VerifysearchInputBoxWithUnRegisteredtextValue*****
+22:57:48.594 [main] INFO  testcases.HomePage_TestCases - *****Finished TC020_VerifysearchInputBoxWithUnRegisteredtextValue*****
+22:57:49.029 [main] INFO  testcases.HomePage_TestCases - *****Starting TC021_VerifysearchInputBoxWithNotextValue*****
+22:57:49.883 [main] INFO  testcases.HomePage_TestCases - *****Finished TC021_VerifysearchInputBoxWithNotextValue*****
+22:57:50.322 [main] INFO  testcases.HomePage_TestCases - *****Starting TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin*****
+22:57:50.572 [main] INFO  testcases.HomePage_TestCases - *****Finished TC023_VerifyaddtocartbuttonRedirectingtoPageWithMsgWithoutLogin*****
+22:57:50.910 [main] INFO  testcases.HomePage_TestCases - *****Starting TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage*****
+22:57:54.322 [main] INFO  testcases.HomePage_TestCases - *****Finished TC024_VerifyMyAccountLinkRedirectingtoMyAccountPage*****
+22:57:54.779 [main] INFO  testcases.HomePage_TestCases - *****Starting TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage*****
+22:57:58.330 [main] INFO  testcases.HomePage_TestCases - *****Finished TC025_VerifyOrderHistoryLinkRedirectingtoOrderHistoryPage*****
+22:57:58.739 [main] INFO  testcases.HomePage_TestCases - *****Starting TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage*****
+22:58:02.143 [main] INFO  testcases.HomePage_TestCases - *****Finished TC026_VerifyTransactionsLinkRedirectingtoYourTransactionsPage*****
+22:58:02.589 [main] INFO  testcases.HomePage_TestCases - *****Starting TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage*****
+22:58:05.973 [main] INFO  testcases.HomePage_TestCases - *****Finished TC027_VerifyDownloadsLinkRedirectingtoAccountDownloadsPage*****
+22:58:06.397 [main] INFO  testcases.HomePage_TestCases - *****Starting TC028_VerifyLogoutLinkRedirectingtoLogoutPage*****
+22:58:08.886 [main] INFO  testcases.HomePage_TestCases - *****Finished TC028_VerifyLogoutLinkRedirectingtoLogoutPage*****
+22:58:09.257 [main] INFO  testcases.HomePage_TestCases - *****Starting TC029_hoveringMouseOnDesktopsLink*****
+22:58:09.617 [main] INFO  testcases.HomePage_TestCases - *****Finished TC029_hoveringMouseOnDesktopsLink*****
+22:58:09.921 [main] INFO  testcases.HomePage_TestCases - *****Starting TC030_PC0LinkisredirectingtoPCPage*****
+22:58:10.543 [main] INFO  testcases.HomePage_TestCases - *****Finished TC030_PC0LinkisredirectingtoPCPage*****
+22:58:10.915 [main] INFO  testcases.HomePage_TestCases - *****Starting TC031_Mac1LinkisredirectingtoMacPage*****
+22:58:11.663 [main] INFO  testcases.HomePage_TestCases - *****Finished TC031_Mac1LinkisredirectingtoMacPage*****
+22:58:12.064 [main] INFO  testcases.HomePage_TestCases - *****Starting TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage*****
+22:58:12.990 [main] INFO  testcases.HomePage_TestCases - *****Finished TC032_ShowAllDesktopsLinkisredirectingtoDesktopsPage*****
+22:58:13.461 [main] INFO  testcases.HomePage_TestCases - *****Starting TC033_hoveringMouseOnLaptopsandNotebooksLink*****
+22:58:13.815 [main] INFO  testcases.HomePage_TestCases - *****Finished TC033_hoveringMouseOnLaptopsandNotebooksLink*****
+22:58:14.382 [main] INFO  testcases.HomePage_TestCases - *****Starting TC034_Macs0LinkisredirectingtoMacsPage*****
+22:58:15.077 [main] INFO  testcases.HomePage_TestCases - *****Finished TC034_Macs0LinkisredirectingtoMacsPage*****
+22:58:15.490 [main] INFO  testcases.HomePage_TestCases - *****Starting TC035_windows0LinkisredirectingtoWindowsPage*****
+22:58:16.198 [main] INFO  testcases.HomePage_TestCases - *****Finished TC035_windows0LinkisredirectingtoWindowsPage*****
+22:58:16.594 [main] INFO  testcases.HomePage_TestCases - *****Starting TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage*****
+22:58:17.283 [main] INFO  testcases.HomePage_TestCases - *****Finished TC036_ShowAllLaptopsandNotebooksLinkisredirectingtoLaptopsandNotebooksPage*****
+22:58:17.663 [main] INFO  testcases.HomePage_TestCases - *****Starting TC037_hoveringMouseOncomponentsLink*****
+22:58:18.153 [main] INFO  testcases.HomePage_TestCases - *****Finished TC037_hoveringMouseOncomponentsLink*****
+22:58:18.496 [main] INFO  testcases.HomePage_TestCases - *****Starting TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage*****
+22:58:19.195 [main] INFO  testcases.HomePage_TestCases - *****Finished TC038_miceandtrackballs0lnkisredirectingtomiceandtrackballsPage*****
+22:58:19.608 [main] INFO  testcases.HomePage_TestCases - *****Starting TC039_monitors2lnkkisredirectingtomonitorsPage*****
+22:58:20.367 [main] INFO  testcases.HomePage_TestCases - *****Finished TC039_monitors2lnkkisredirectingtomonitorsPage*****
+22:58:20.837 [main] INFO  testcases.HomePage_TestCases - *****Starting TC040_printers0lnkisredirectingtoPrinterskPage*****
+22:58:21.580 [main] INFO  testcases.HomePage_TestCases - *****Finished TC040_printers0lnkisredirectingtoPrinterskPage*****
+22:58:21.972 [main] INFO  testcases.HomePage_TestCases - *****Starting TC041_scanners0lnkisredirectingtoScannersPage*****
+22:58:22.651 [main] INFO  testcases.HomePage_TestCases - *****Finished TC041_scanners0lnkisredirectingtoScannersPage*****
+22:58:23.064 [main] INFO  testcases.HomePage_TestCases - *****Starting TC042_webcameras0lnkisredirectingtoWebCamerasPage*****
+22:58:23.839 [main] INFO  testcases.HomePage_TestCases - *****Finished TC042_webcameras0lnkisredirectingtoWebCamerasPage*****
+22:58:24.243 [main] INFO  testcases.HomePage_TestCases - *****Starting TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage*****
+22:58:24.946 [main] INFO  testcases.HomePage_TestCases - *****Finished TC043_ClickonshowallcomponentslnisredirectingtoComponentsPage*****
+22:58:25.354 [main] INFO  testcases.HomePage_TestCases - *****Starting TC044_ClickontabletslnkRedirectingtoTabletsPage*****
+22:58:25.906 [main] INFO  testcases.HomePage_TestCases - *****Finished TC044_ClickontabletslnkRedirectingtoTabletsPage*****
+22:58:26.280 [main] INFO  testcases.HomePage_TestCases - *****Starting TC045_ClickonsofwarelnkRedirectingtoSoftwarePage*****
+22:58:26.874 [main] INFO  testcases.HomePage_TestCases - *****Finished TC045_ClickonsofwarelnkRedirectingtoSoftwarePage*****
+22:58:27.307 [main] INFO  testcases.HomePage_TestCases - *****Starting TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage*****
+22:58:27.898 [main] INFO  testcases.HomePage_TestCases - *****Finished TC046_ClickonphonesandpdaslnkRedirectingtoPhonesAndPDASPage*****
+22:58:28.288 [main] INFO  testcases.HomePage_TestCases - *****Starting TC047_ClickoncameraslnkRedirectingtoCamerasPage*****
+22:58:28.854 [main] INFO  testcases.HomePage_TestCases - *****Finished TC047_ClickoncameraslnkRedirectingtoCamerasPage*****
+22:58:29.275 [main] INFO  testcases.HomePage_TestCases - *****Starting TC048_hoveringMouseOnMp3PlayersLink*****
+22:58:30.206 [main] INFO  testcases.HomePage_TestCases - *****Finished TC048_hoveringMouseOnMp3PlayersLink*****
+22:58:30.522 [main] INFO  testcases.HomePage_TestCases - *****Starting TC049_ClickonTest11_0_lnkRedirectingtotest11Page*****
+22:58:31.167 [main] INFO  testcases.HomePage_TestCases - *****Finished TC049_ClickonTest11_0_lnkRedirectingtotest11Page*****
+22:58:31.563 [main] INFO  testcases.HomePage_TestCases - *****Starting TC050_ClickonTest12_0_lnkRedirectingtotest12Pagee*****
+22:58:32.128 [main] INFO  testcases.HomePage_TestCases - *****Finished TC050_ClickonTest12_0_lnkRedirectingtotest12Page*****
+22:58:32.538 [main] INFO  testcases.HomePage_TestCases - *****Starting TC051_ClickonTest15_0_lnkRedirectingtotest15Page*****
+22:58:33.240 [main] INFO  testcases.HomePage_TestCases - *****Finished TC051_ClickonTest15_0_lnkRedirectingtotest15Page*****
+22:58:33.662 [main] INFO  testcases.HomePage_TestCases - *****Starting TC052_ClickonTest16_0_lnkRedirectingtotest16Page*****
+22:58:34.331 [main] INFO  testcases.HomePage_TestCases - *****Finished TC052_ClickonTest16_0_lnkRedirectingtotest16Page*****
+22:58:34.709 [main] INFO  testcases.HomePage_TestCases - *****Starting TC053_ClickonTest17_0_lnkRedirectingtotest17Page*****
+22:58:35.326 [main] INFO  testcases.HomePage_TestCases - *****Finished TC053_ClickonTest17_0_lnkRedirectingtotest17Page*****
+22:58:35.696 [main] INFO  testcases.HomePage_TestCases - *****Starting TC054_ClickonTest18_0_lnkRedirectingtotest18Page*****
+22:58:36.305 [main] INFO  testcases.HomePage_TestCases - *****Finished TC054_ClickonTest18_0_lnkRedirectingtotest18Page*****
+22:58:36.646 [main] INFO  testcases.HomePage_TestCases - *****Starting TC055_ClickonTest19_0_lnkRedirectingtotest19Page*****
+22:58:37.295 [main] INFO  testcases.HomePage_TestCases - *****Finished TC055_ClickonTest19_0_lnkRedirectingtotest19Page*****
+22:58:37.679 [main] INFO  testcases.HomePage_TestCases - *****Starting TC056_ClickonTest20_0_lnkRedirectingtotest20Page*****
+22:58:38.685 [main] INFO  testcases.HomePage_TestCases - *****Finished TC056_ClickonTest20_0_lnkRedirectingtotest20Page*****
+22:58:39.058 [main] INFO  testcases.HomePage_TestCases - *****Starting TC057_ClickonTest21_0_lnkRedirectingtotest21Page*****
+22:58:39.715 [main] INFO  testcases.HomePage_TestCases - *****Finished TC057_ClickonTest21_0_lnkRedirectingtotest21Page*****
+22:58:40.243 [main] INFO  testcases.HomePage_TestCases - *****Starting TC058_ClickonTest22_0_lnkRedirectingtotest22Page*****
+22:58:40.911 [main] INFO  testcases.HomePage_TestCases - *****Finished TC058_ClickonTest22_0_lnkRedirectingtotest22Page*****
+22:58:41.293 [main] INFO  testcases.HomePage_TestCases - *****Starting TC059_ClickonTest23_0_lnkRedirectingtotest23Page*****
+22:58:41.938 [main] INFO  testcases.HomePage_TestCases - *****Finished TC059_ClickonTest23_0_lnkRedirectingtotest23Page*****
+22:58:42.325 [main] INFO  testcases.HomePage_TestCases - *****Starting TC060_ClickonTest24_0_lnkRedirectingtotest24Page*****
+22:58:43.038 [main] INFO  testcases.HomePage_TestCases - *****Finished TC060_ClickonTest24_0_lnkRedirectingtotest24Page*****
+22:58:43.383 [main] INFO  testcases.HomePage_TestCases - *****Starting TC061_ClickonTest4_0_lnkRedirectingtotest4Page*****
+22:58:44.022 [main] INFO  testcases.HomePage_TestCases - *****Finished TC061_ClickonTest4_0_lnkRedirectingtotest4Page*****
+22:58:44.425 [main] INFO  testcases.HomePage_TestCases - *****Starting TC062_ClickonTest5_0_lnkRedirectingtotest5Page*****
+22:58:45.137 [main] INFO  testcases.HomePage_TestCases - *****Finished TC062_ClickonTest5_0_lnkRedirectingtotest5Page*****
+22:58:45.538 [main] INFO  testcases.HomePage_TestCases - *****Starting TC063_ClickonTest6_0_lnkRedirectingtotest6Page*****
+22:58:46.259 [main] INFO  testcases.HomePage_TestCases - *****Finished TC063_ClickonTest6_0_lnkRedirectingtotest6Page*****
+22:58:46.662 [main] INFO  testcases.HomePage_TestCases - *****Starting TC064_ClickonTest7_0_lnkRedirectingtotest7Page*****
+22:58:47.399 [main] INFO  testcases.HomePage_TestCases - *****Finished TC064_ClickonTest7_0_lnkRedirectingtotest7Page*****
+22:58:47.805 [main] INFO  testcases.HomePage_TestCases - *****Starting TC065_ClickonTest8_0_lnkRedirectingtotest8Page*****
+22:58:48.506 [main] INFO  testcases.HomePage_TestCases - *****Finished TC065_ClickonTest8_0_lnkRedirectingtotest8Page*****
+22:58:48.944 [main] INFO  testcases.HomePage_TestCases - *****Starting TC066_ClickonTest9_0_lnkRedirectingtotest9Page*****
+22:58:50.123 [main] INFO  testcases.HomePage_TestCases - *****Finished TC066_ClickonTest9_0_lnkRedirectingtotest9Page*****
+22:58:51.461 [main] INFO  testcases.HomePage_TestCases - *****Starting TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage*****
+22:58:52.224 [main] INFO  testcases.HomePage_TestCases - *****Finished TC067_ClickonShowAllMP3PlayerslnkRedirectingtoMP3PlayersPage*****
+22:58:52.693 [main] INFO  testcases.HomePage_TestCases - *****Starting TC068_verifyFourProductsInFeaturedHeadline*****
+22:58:52.974 [main] INFO  testcases.HomePage_TestCases - *****Finished TC068_verifyFourProductsInFeaturedHeadline*****
+22:58:53.377 [main] INFO  testcases.HomePage_TestCases - *****Starting TC069_VerifyMacBooklinkisredirectingtoMacBookpage*****
+22:58:54.399 [main] INFO  testcases.HomePage_TestCases - *****Finished TC069_VerifyMacBooklinkisredirectingtoMacBookpage*****
+22:58:55.156 [main] INFO  testcases.HomePage_TestCases - *****Starting TC070_VerifyMacBookDescription*****
+22:58:55.250 [main] INFO  testcases.HomePage_TestCases - *****Finished TC070_VerifyMacBookDescription*****
+22:58:55.572 [main] INFO  testcases.HomePage_TestCases - *****Starting TC071_VerifyMacBookTax*****
+22:58:55.658 [main] INFO  testcases.HomePage_TestCases - MacBook Tax Value: $602.00
+Ex Tax:$500.00
+22:58:56.276 [main] INFO  testcases.HomePage_TestCases - *****Starting TC072_VerifyMacBookExTax*****
+22:58:56.377 [main] INFO  testcases.HomePage_TestCases - MacBook Ex Tax Value: Ex Tax:$500.00
+22:58:56.378 [main] INFO  testcases.HomePage_TestCases - *****Finished TC072_VerifyMacBookExTax*****
+22:58:56.678 [main] INFO  testcases.HomePage_TestCases - *****Starting TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct*****
+22:58:56.730 [main] INFO  testcases.HomePage_TestCases - *****Finished TC073_verifyAgroupof3ButtonsaredisplayedinMacbookProduct*****
+22:58:57.046 [main] INFO  testcases.HomePage_TestCases - *****Starting TC074_VerifyAddtoCartButtonofMacBookProduct*****
+22:58:57.579 [main] INFO  testcases.HomePage_TestCases - Success: You have added MacBook to your shopping cart!
+×
+22:58:57.628 [main] INFO  testcases.HomePage_TestCases - *****Finished TC074_VerifyAddtoCartButtonofMacBookProduct*****
+22:58:58.089 [main] INFO  testcases.HomePage_TestCases - *****TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin*****
+22:58:58.463 [main] INFO  testcases.HomePage_TestCases - You must login or create an account to save MacBook to your wish list!
+×
+22:58:58.508 [main] INFO  testcases.HomePage_TestCases - *****Finished TC075_VerifyAddtoWishListButtonofMacBookProductWithoutLogin*****
+22:58:59.323 [main] INFO  testcases.HomePage_TestCases - *****TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin*****
+22:59:02.094 [main] INFO  testcases.HomePage_TestCases - Success: You have added MacBook to your wish list!
+×
+22:59:03.978 [main] INFO  testcases.HomePage_TestCases - *****Finished TC076_VerifyAddtoWishListButtonofMacBookProductWithLogin*****
+22:59:04.397 [main] INFO  testcases.HomePage_TestCases - *****Starting TC077_VerifyCompareThisProductsButtonofMacBookProduct*****
+22:59:04.775 [main] INFO  testcases.HomePage_TestCases - Success: You have added MacBook to your product comparison!
+×
+22:59:04.820 [main] INFO  testcases.HomePage_TestCases - *****Finished TC077_VerifyCompareThisProductsButtonofMacBookProduct*****
+22:59:05.135 [main] INFO  testcases.HomePage_TestCases - *****Starting TC078_VerifyiphoneLnkisRedirectToiphonePage*****
+22:59:05.777 [main] INFO  testcases.HomePage_TestCases - *****Finished TC078_VerifyiphoneLnkisRedirectToiphonePage*****
+22:59:06.164 [main] INFO  testcases.HomePage_TestCases - *****Starting TC079_VerifyiPhoneDescription*****
+22:59:06.268 [main] INFO  testcases.HomePage_TestCases - *****Finished TC079_VerifyiPhoneDescription*****
+22:59:06.653 [main] INFO  testcases.HomePage_TestCases - *****Starting TC080_VerifyiPhoneExTax*****
+22:59:06.773 [main] INFO  testcases.HomePage_TestCases - iPhone Ex Tax Value: Ex Tax:$101.00
+22:59:06.773 [main] INFO  testcases.HomePage_TestCases - *****Finished TC080_VerifyiPhoneExTax*****
+22:59:07.205 [main] INFO  testcases.HomePage_TestCases - *****Starting TC081_VerifyiPhoneTax*****
+22:59:07.298 [main] INFO  testcases.HomePage_TestCases - iPhone Tax Value: $123.20
+Ex Tax:$101.00
+22:59:08.038 [main] INFO  testcases.HomePage_TestCases - *****Starting TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct*****
+22:59:08.091 [main] INFO  testcases.HomePage_TestCases - *****Finished TC082_verifyAgroupof3ButtonsaredisplayediniPhoneProduct*****
+22:59:08.406 [main] INFO  testcases.HomePage_TestCases - *****Starting TC083_VerifyAddtoCartButtonofiPhoneProduct*****
+22:59:08.790 [main] INFO  testcases.HomePage_TestCases - Success: You have added iPhone to your shopping cart!
+×
+22:59:08.857 [main] INFO  testcases.HomePage_TestCases - *****Finished TC083_VerifyAddtoCartButtonofiPhoneProduct*****
+22:59:09.142 [main] INFO  testcases.HomePage_TestCases - *****Starting TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin*****
+22:59:09.457 [main] INFO  testcases.HomePage_TestCases - You must login or create an account to save iPhone to your wish list!
+×
+22:59:09.497 [main] INFO  testcases.HomePage_TestCases - *****Finished TC084_VerifyAddtoWishListButtonofiPhoneProductWithoutLogin*****
+22:59:09.796 [main] INFO  testcases.HomePage_TestCases - *****Starting TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin*****
+22:59:12.831 [main] INFO  testcases.HomePage_TestCases - Success: You have added iPhone to your wish list!
+×
+22:59:15.181 [main] INFO  testcases.HomePage_TestCases - *****Finished TC085_VerifyAddtoWishListButtonofiPhoneProductWithLogin*****
+22:59:16.227 [main] INFO  testcases.HomePage_TestCases - *****Starting TC086_VerifyCompareThisProductsButtonofiPhoneProduct*****
+22:59:16.629 [main] INFO  testcases.HomePage_TestCases - Success: You have added iPhone to your product comparison!
+×
+22:59:16.680 [main] INFO  testcases.HomePage_TestCases - *****Finished TC086_VerifyCompareThisProductsButtonofiPhoneProduct*****
+22:59:17.012 [main] INFO  testcases.HomePage_TestCases - *****Starting TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page*****
+22:59:17.873 [main] INFO  testcases.HomePage_TestCases - *****Finished TC087_VerifyAppleCinema30LnkisRedirectToAppleCinema30Page*****
+22:59:18.297 [main] INFO  testcases.HomePage_TestCases - *****Starting TC088_VerifyAppleCinema30Description*****
+22:59:18.393 [main] INFO  testcases.HomePage_TestCases - *****Finished TC088_VerifyAppleCinema30Description*****
+22:59:18.705 [main] INFO  testcases.HomePage_TestCases - *****Starting TC089_VerifyAppleCinema30ExTax*****
+22:59:18.810 [main] INFO  testcases.HomePage_TestCases - AppleCinema30 Ex Tax Value: Ex Tax:$90.00
+22:59:18.811 [main] INFO  testcases.HomePage_TestCases - *****Finished TC089_VerifyAppleCinema30ExTax*****
+22:59:19.121 [main] INFO  testcases.HomePage_TestCases - *****Starting TC090_VerifyAppleCinema30NewTax*****
+22:59:19.224 [main] INFO  testcases.HomePage_TestCases - AppleCinema30 New Tax Value: $110.00
+22:59:19.224 [main] INFO  testcases.HomePage_TestCases - *****Finished TC090_VerifyAppleCinema30NewTax*****
+22:59:19.585 [main] INFO  testcases.HomePage_TestCases - *****Starting TC091_VerifyAppleCinema30OldTax*****
+22:59:19.696 [main] INFO  testcases.HomePage_TestCases - AppleCinema30 Old Tax Value: $122.00
+22:59:19.696 [main] INFO  testcases.HomePage_TestCases - *****Finished TC091_VerifyAppleCinema30OldTax*****
+22:59:20.011 [main] INFO  testcases.HomePage_TestCases - *****Starting TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product*****
+22:59:20.069 [main] INFO  testcases.HomePage_TestCases - *****Finished TC092_verifyAgroupof3ButtonsaredisplayedinAppleCinema30Product*****
+22:59:20.373 [main] INFO  testcases.HomePage_TestCases - *****Starting TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage*****
+22:59:21.252 [main] INFO  testcases.HomePage_TestCases - *****Finished TC093_VerifyAddtoCartButtonoRedirectingToAppleCinema30ProductPage*****
+22:59:21.663 [main] INFO  testcases.HomePage_TestCases - *****Starting TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin*****
+22:59:22.043 [main] INFO  testcases.HomePage_TestCases - You must login or create an account to save Apple Cinema 30" to your wish list!
+×
+22:59:22.097 [main] INFO  testcases.HomePage_TestCases - *****Finished TC094_VerifyAddtoWishListButtonofAppleCinema30ProductWithoutLogin*****
+22:59:22.508 [main] INFO  testcases.HomePage_TestCases - *****Starting TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin*****
+22:59:25.799 [main] INFO  testcases.HomePage_TestCases - Success: You have added Apple Cinema 30" to your wish list!
+×
+22:59:27.785 [main] INFO  testcases.HomePage_TestCases - *****Finished TC095_VerifyAddtoAppleCinema30ButtonofAppleCinema30ProductWithLogin*****
+22:59:28.173 [main] INFO  testcases.HomePage_TestCases - *****Starting TC096_VerifyCompareThisProductsButtonofAppleCinema30Product*****
+22:59:28.558 [main] INFO  testcases.HomePage_TestCases - Success: You have added Apple Cinema 30" to your product comparison!
+×
+22:59:28.600 [main] INFO  testcases.HomePage_TestCases - *****Finished TC096_VerifyCompareThisProductsButtonofAppleCinema30Product*****
+22:59:28.943 [main] INFO  testcases.HomePage_TestCases - *****Starting TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage*****
+22:59:29.565 [main] INFO  testcases.HomePage_TestCases - *****Finished TC097_VerifyCanonEOS5DLnkisRedirectToCanonEOS5DPage*****
+22:59:29.965 [main] INFO  testcases.HomePage_TestCases - *****Starting TC098_VerifyCanonEOS5DDescription*****
+22:59:30.076 [main] INFO  testcases.HomePage_TestCases - *****Finished TC098_VerifyCanonEOS5DDescription*****
+22:59:30.571 [main] INFO  testcases.HomePage_TestCases - *****Starting TC099_VerifyCanonEOS5DExTax*****
+22:59:30.658 [main] INFO  testcases.HomePage_TestCases - CanonEOS5D Ex Tax Value: Ex Tax:$80.00
+22:59:30.659 [main] INFO  testcases.HomePage_TestCases - *****Finished TC099_VerifyCanonEOS5DExTax*****
+22:59:30.942 [main] INFO  testcases.HomePage_TestCases - *****Starting TC100_VerifyCanonEOS5DNewTax*****
+22:59:31.016 [main] INFO  testcases.HomePage_TestCases - CanonEOS5D New Tax Value: $98.00
+22:59:31.016 [main] INFO  testcases.HomePage_TestCases - *****Finished TC100_VerifyCanonEOS5DNewTax*****
+22:59:31.319 [main] INFO  testcases.HomePage_TestCases - *****Starting TC101_VerifyCanonEOS5DOldTax*****
+22:59:31.390 [main] INFO  testcases.HomePage_TestCases - CanonEOS5D Old Tax Value: $122.00
+22:59:31.390 [main] INFO  testcases.HomePage_TestCases - *****Finished TC101_VerifyCanonEOS5DOldTax*****
+22:59:31.687 [main] INFO  testcases.HomePage_TestCases - *****Starting TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct*****
+22:59:31.720 [main] INFO  testcases.HomePage_TestCases - *****Finished TC102_verifyAgroupof3ButtonsaredisplayedinCanonEOS5DProduct*****
+22:59:31.985 [main] INFO  testcases.HomePage_TestCases - *****Starting TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin*****
+22:59:32.329 [main] INFO  testcases.HomePage_TestCases - You must login or create an account to save Canon EOS 5D to your wish list!
+×
+22:59:32.374 [main] INFO  testcases.HomePage_TestCases - *****Finished TC104_VerifyAddtoWishListButtonofCanonEOS5DProductWithoutLogin*****
+22:59:32.675 [main] INFO  testcases.HomePage_TestCases - *****Starting TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin*****
+22:59:35.427 [main] INFO  testcases.HomePage_TestCases - Success: You have added Canon EOS 5D to your wish list!
+×
+22:59:37.457 [main] INFO  testcases.HomePage_TestCases - *****Finished TC105_VerifyAddtoCanonEOS5DButtonofCanonEOS5DProductWithLogin*****
+22:59:37.898 [main] INFO  testcases.HomePage_TestCases - *****Starting TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct*****
+22:59:38.307 [main] INFO  testcases.HomePage_TestCases - Success: You have added Canon EOS 5D to your product comparison!
+×
+22:59:38.345 [main] INFO  testcases.HomePage_TestCases - *****Finished TC106_VerifyCompareThisProductsButtonofCanonEOS5DProduct*****
+22:59:38.660 [main] INFO  testcases.HomePage_TestCases - *****Starting TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage*****
+22:59:39.321 [main] INFO  testcases.HomePage_TestCases - *****Finished TC107_VerifyClickonAboutUsLinkRedirectingToAboutUsPage*****
+22:59:39.729 [main] INFO  testcases.HomePage_TestCases - *****Starting TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage*****
+22:59:40.313 [main] INFO  testcases.HomePage_TestCases - *****Finished TC108_VerifyClickonDeliveryInformationLinkRedirectingToDeliveryInformationPage*****
+22:59:40.727 [main] INFO  testcases.HomePage_TestCases - *****Starting TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage*****
+22:59:41.298 [main] INFO  testcases.HomePage_TestCases - *****Finished TC109_VerifyClickonPrivacypolicyLinkRedirectingToPrivacypolicyPage*****
+22:59:41.725 [main] INFO  testcases.HomePage_TestCases - *****Starting TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage*****
+22:59:42.238 [main] INFO  testcases.HomePage_TestCases - *****Finished TC110_VerifyClickonTermsAndConditionsLinkRedirectingToTermsAndConditionsPage*****
+22:59:42.625 [main] INFO  testcases.HomePage_TestCases - *****Starting TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage*****
+22:59:43.178 [main] INFO  testcases.HomePage_TestCases - *****Finished TC111_VerifyClickonContactUsLinkRedirectingToContactUsPage*****
+22:59:43.614 [main] INFO  testcases.HomePage_TestCases - *****Starting TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage*****
+22:59:44.289 [main] INFO  testcases.HomePage_TestCases - *****Finished TC112_VerifyClickonReturnsLinkRedirectingToReturnsPage*****
+22:59:44.703 [main] INFO  testcases.HomePage_TestCases - *****Starting TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage*****
+22:59:45.325 [main] INFO  testcases.HomePage_TestCases - *****Finished TC113_VerifyClickonSiteMapLinkRedirectingToSiteMapPage*****
+22:59:45.743 [main] INFO  testcases.HomePage_TestCases - *****Starting TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage*****
+22:59:46.341 [main] INFO  testcases.HomePage_TestCases - *****Finished TC114_VerifyClickonBrandLinkRedirectingToFindYourFavoriteBrandPage*****
+22:59:46.742 [main] INFO  testcases.HomePage_TestCases - *****Starting TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage*****
+22:59:47.376 [main] INFO  testcases.HomePage_TestCases - *****Finished TC115_VerifyClickonGiftCertificatesLinkRedirectingToPurchaseAGiftCertificatePage*****
+22:59:47.780 [main] INFO  testcases.HomePage_TestCases - *****Starting TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin*****
+22:59:48.398 [main] INFO  testcases.HomePage_TestCases - *****Finished TC116_VerifyClickonAffiliateLinkRedirectingToAffiliateProgramPageWithoutLogin*****
+22:59:48.811 [main] INFO  testcases.HomePage_TestCases - *****Starting TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin*****
+22:59:52.109 [main] INFO  testcases.HomePage_TestCases - *****Finished TC117_VerifyClickonAffiliateLinkRedirectingToMyAffiliateAccountPageWithLogin*****
+22:59:52.515 [main] INFO  testcases.HomePage_TestCases - *****Starting TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage*****
+22:59:53.114 [main] INFO  testcases.HomePage_TestCases - *****Finished TC118_VerifyClickonSpecialLinkRedirectingToSpecialOffersPage*****
+22:59:53.119 [main] INFO  testcases.HomePage_TestCases - Closing the browser.
+22:59:53.796 [main] INFO  testcases.TC001_AccountRegistractionTest - Test setup is starting...
+22:59:53.796 [main] INFO  testcases.TC001_AccountRegistractionTest - Test is Running in Local Environment
+22:59:57.457 [main] INFO  testcases.TC001_AccountRegistractionTest - Chrome browser selected
+23:00:00.054 [main] INFO  testcases.TC001_AccountRegistractionTest - Browser setup complete
+23:00:04.226 [main] INFO  testcases.TC001_AccountRegistractionTest - *****Starting TC001_AccountRegisterationPage*****
+23:00:04.589 [main] INFO  testcases.TC001_AccountRegistractionTest - Clicked on MyAccountLnk......
+23:00:06.026 [main] INFO  testcases.TC001_AccountRegistractionTest - Clicked on RegisterLnk......
+23:00:06.038 [main] INFO  testcases.TC001_AccountRegistractionTest - Providing customer details....
+23:00:08.938 [main] INFO  testcases.TC001_AccountRegistractionTest - Clicked on Continous button.....
+23:00:08.939 [main] INFO  testcases.TC001_AccountRegistractionTest - validating expected message.....
+23:00:09.021 [main] INFO  testcases.TC001_AccountRegistractionTest - *****finished TC001_AccountRegestrationTest*****
+23:00:09.024 [main] INFO  testcases.TC001_AccountRegistractionTest - Closing the browser.
+23:00:09.561 [main] INFO  testcases.TC002_LoginTest - Test setup is starting...
+23:00:09.562 [main] INFO  testcases.TC002_LoginTest - Test is Running in Local Environment
+23:00:12.152 [main] INFO  testcases.TC002_LoginTest - Chrome browser selected
+23:00:14.634 [main] INFO  testcases.TC002_LoginTest - Browser setup complete
+23:00:16.204 [main] INFO  testcases.TC002_LoginTest - *****Starting TC002_LoginTest*****
+23:00:18.589 [main] INFO  testcases.TC002_LoginTest - *****Finished TC_002_LoginTest*****
+23:00:18.593 [main] INFO  testcases.TC002_LoginTest - Closing the browser.

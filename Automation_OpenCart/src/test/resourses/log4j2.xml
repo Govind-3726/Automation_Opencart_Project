@@ -27,7 +27,7 @@
         <!-- Root logger logs everything with the defined level and sends to appenders -->
         <Root level="info">
             <AppenderRef ref="Console"/> 
-            <!--<AppenderRef ref="File"/> -->
+            <AppenderRef ref="File"/> 
         </Root>
     </Loggers>
     
